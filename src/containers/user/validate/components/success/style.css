@@ -1,0 +1,20 @@
+:local .baseMessage {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+:local .icon {
+  margin: 0% 0% 0% 40%;
+  width: 20%;
+}
+
+:local .messageSuccess {
+  font-size: 16px;
+  text-align: center;
+}
+
+:local .buttonLogin {
+  composes: buttonEnable from "../../../../../components/bases/buttonBase.css";
+  margin: 20% 0% 0% 0%;
+}

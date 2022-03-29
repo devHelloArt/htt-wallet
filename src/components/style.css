@@ -1,0 +1,116 @@
+/**
+
+1. CONTAINERS
+2. BUTTONCONTINUER
+3. CUSTOMSWITCH
+4. LOGO LUNES 
+
+*/
+
+
+/* 1. CONTAINERS */
+
+:local .box {
+    composes: textDefault from "../components/bases/textBase.css";
+    composes: bgWhiteDefault from "../components/bases/colorBase.css";
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+@media screen and (max-width: 599px) {
+     :local .box {
+        padding: 10px;
+        margin: 0px;
+        font-size: 11px;
+    }
+}
+
+
+/* 2. BUTTONCONTINUER */
+
+:local .bt {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+:local(.btContinue) {
+    composes: buttonEnable from "../components/bases/buttonBase.css";
+    composes: bt;
+}
+
+:local(.btError) {
+    composes: buttonGeneral from "../components/bases/buttonBase.css";
+    composes: bgError from "../components/bases/colorBase.css";
+    composes: bt;
+}
+
+:local(.btContinueDisable) {
+    composes: buttonBorderWhite from "../components/bases/buttonBase.css";
+    composes: bt;
+}
+
+
+/* 3. CUSTOMSWITCH */
+
+:local .box h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+:local .formSwitch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 599px) {
+     :local .box h3 {
+        font-size: 12px;
+    }
+}
+
+
+/* ActionButton */
+
+:local(.imgAction) {
+    opacity: 0.15;
+    cursor: pointer;
+    display: inline-block;
+    align-content: flex-end;
+    text-align: center;
+    margin: auto;
+}
+
+:local .imgAction:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+     :local(.imgAction) {
+        margin: 4px 0px 0px 5px;
+    }
+}
+
+
+/* 4. LOGO LUNES */
+
+:local .logoHTT span {
+    margin: auto;
+    font-weight: 500;
+    color: white;
+    font-family: "Offside";
+}
+
+:local .logoHTT span span {
+    color: #FCFCFC;
+}

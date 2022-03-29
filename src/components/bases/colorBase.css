@@ -1,0 +1,191 @@
+/*
+
+1 PURPLE
+  1.1 BACKGROUND (bgColorName)
+  1.2 COLOR (clColorName)
+2 GREEN
+  2.1 BACKGROUND
+  2.2 COLOR
+  2.3 BORDER
+3 COINS
+  3.1 BACKGROUND
+  3.2 COLOR
+4 MESSAGES
+  4.1 BACKGROUND
+  4.2 COLOR
+*/
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* 1 PURPLE */
+
+
+/* 1.1 BACKGROUND */
+
+:local(.bgWhiteDefault) {
+    background-color: #FCFCFC;
+}
+
+:local(.bgWhiteClear) {
+    background-color: #FCFCFC;
+}
+
+:local(.bgWhiteLight) {
+    background-color: #F6F6F6;
+}
+
+:local(.bgWhiteMedium) {
+    background-color: #D5D5D5;
+}
+
+:local(.bgWhiteDark) {
+    background-color: #B2B2B2;
+}
+
+
+/* 1.2 COLOR */
+
+:local(.clPurpleDefault) {
+    color: #473088;
+}
+
+:local(.clPurpleClear) {
+    color: #654fa4;
+}
+
+:local(.clPurpleLight) {
+    color: #654fa4;
+}
+
+:local(.clPurpleDark) {
+    color: #FCFCFC;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* 2 GREEN */
+
+
+/* 2.1 BACKGROUND */
+
+:local(.bgGreenDefault) {
+    background-color: #F6F6F6;
+}
+
+:local(.bgGreenLight) {
+    background-color: #F6F6F6;
+}
+
+:local(.bgGreenDark) {
+    background-color: #000;
+}
+
+
+/* 2.2 COLOR */
+
+:local(.clBlueDefault) {
+    color: #02055A;
+}
+
+:local(.clBlueLight) {
+    color: #02055A;
+}
+
+:local(.clGreenDark) {
+    color: #000;
+}
+
+
+/* 2.3 BORDER */
+
+:local(.bdWhiteDark) {
+    border-color: #B2B2B2;
+}
+
+:local(.bdGreenDefault) {
+    border-color: #68f285;
+}
+
+:local(.bdGreenLight) {
+    border-color: #68f285;
+}
+
+:local(.bdGreenDark) {
+    border-color: #000;
+}
+
+:local(.bdError) {
+    border-color: #f05252;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* 3 COINS */
+
+
+/* 3.1 BACKGROUND */
+
+:local(.bgCoinLunes) {
+    background-color: #4cd566;
+}
+
+:local(.bgCoinBitcoin) {
+    background-color: #f7921a;
+}
+
+
+/* 3.2 COLOR */
+
+:local(.clCoinLunes) {
+    color: #4cd566;
+}
+
+:local(.clCoinBitcoin) {
+    color: #f7921a;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* 4 MESSAGES */
+
+
+/* 4.1 BACKGROUND */
+
+:local(.bgSuccess) {
+    background-color: #B2B2B2;
+}
+
+:local(.bgError) {
+    background-color: #f05252;
+}
+
+:local(.bgInfo) {
+    background-color: #ffffff;
+}
+
+
+/* 4.2 COLOR */
+
+:local(.clSuccess) {
+    color: #68f285;
+}
+
+:local(.clError) {
+    color: #f05252;
+}
+
+:local(.clInfo) {
+    color: #ffffff;
+}
+
+:local(.clWarning) {
+    color: #ffcf49;
+}

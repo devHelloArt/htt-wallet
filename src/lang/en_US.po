@@ -1,0 +1,2075 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2018-12-15T21:52:54.838Z\n"
+"PO-Revision-Date: 2018-12-15T21:52:54.839Z\n"
+"Language: en_US\n"
+
+msgid "FEBRUARY"
+msgstr "February"
+
+msgid "JANUARY"
+msgstr "January"
+
+msgid "MARCH"
+msgstr "March"
+
+msgid "APRIL"
+msgstr "April"
+
+msgid "MAY"
+msgstr "May"
+
+msgid "JUNE"
+msgstr "June"
+
+msgid "JULY"
+msgstr "July"
+
+msgid "AUGUST"
+msgstr "August"
+
+msgid "SEPTEMBER"
+msgstr "September"
+
+msgid "OCTOBER"
+msgstr "October"
+
+msgid "NOVEMBER"
+msgstr "November"
+
+msgid "DECEMBER"
+msgstr "December"
+
+msgid "LEASING"
+msgstr "Leasing"
+
+msgid "UNKNOWN"
+msgstr "Unknown"
+
+msgctxt "EMAIL"
+msgid "EXAMPLE"
+msgstr "example@example.com"
+
+msgctxt "EMAIL"
+msgid "MESSAGE_USER"
+msgstr "User/Email"
+
+msgctxt "EMAIL"
+msgid "PLACEHOLDER_USERNAME"
+msgstr "Username or Email"
+
+msgctxt "EMAIL"
+msgid "PLACEHOLDER"
+msgstr "E-mail"
+
+msgctxt "EMAIL"
+msgid "BTN_RECEIVE"
+msgstr "E-mail"
+
+msgctxt "EMAIL"
+msgid "INVITE_TITLE"
+msgstr "E-mail"
+
+msgctxt "EMAIL"
+msgid "INVITE_ERROR"
+msgstr ""
+"Your e-mail has not been verified, please try again by clicking the button "
+"below."
+
+msgctxt "EMAIL"
+msgid "INVITE_SUCCESS"
+msgstr "Confirmed E-mail"
+
+msgctxt "FAILED"
+msgid "MESSAGE_TRANSACTION"
+msgstr "Your transaction could not be completed."
+
+msgctxt "FAILED"
+msgid "MESSAGE_LOGIN"
+msgstr "Incorrect username or password."
+
+msgctxt "VOUCHER"
+msgid "MESSAGE_INVALID"
+msgstr "Invalid Voucher"
+
+msgctxt "AMOUNT"
+msgid "MESSAGE_INVALID"
+msgstr "Invalid Amount"
+
+msgctxt "AMOUNT"
+msgid "WALLET_MY"
+msgstr "Balance"
+
+msgctxt "AMOUNT"
+msgid "LEASING_TITLE"
+msgstr "Leased"
+
+msgctxt "AMOUNT"
+msgid "PAYMENT_FEE"
+msgstr "Your transaction fee on the network "
+
+msgctxt "AMOUNT"
+msgid "MODAL_SEND"
+msgstr "Enter the quantity"
+
+msgctxt "AMOUNT"
+msgid "MODAL_SEND_MIN"
+msgstr "You are trying to send a very low amount."
+
+msgctxt "PASSWORD"
+msgid "MESSAGE_INVALID"
+msgstr "Invalid Password"
+
+msgctxt "PASSWORD"
+msgid "PLACEHOLDER_USER"
+msgstr "Username or Password"
+
+msgctxt "PASSWORD"
+msgid "SETTINGS_USER"
+msgstr "Change password"
+
+msgctxt "PASSWORD"
+msgid "SETTINGS_USER_CURRENT"
+msgstr "Current password"
+
+msgctxt "PASSWORD"
+msgid "SETTINGS_USER_NEW"
+msgstr "New password"
+
+msgctxt "PASSWORD"
+msgid "SETTINGS_USER_CONFIRM_NEW"
+msgstr "Confirm new password"
+
+msgctxt "PASSWORD"
+msgid "SETTINGS_USER_CHANGE"
+msgstr "Change password"
+
+msgctxt "PASSWORD"
+msgid "MESSAGE"
+msgstr "Password"
+
+msgctxt "PASSWORD"
+msgid "PLACEHOLDER"
+msgstr "Password"
+
+msgctxt "P2P"
+msgid "SETTINGS"
+msgstr "P2P signatures"
+
+msgctxt "FEE"
+msgid "MESSAGE_SELECT"
+msgstr "Select a Fee"
+
+msgctxt "FEE"
+msgid "LEASING"
+msgstr "Fee"
+
+msgctxt "SERVICE"
+msgid "MESSAGE_NOT"
+msgstr "Service not available"
+
+msgctxt "SERVICE"
+msgid "MESSAGE_TERMS_OF"
+msgstr "You need to accept the terms of service"
+
+msgctxt "SERVICE"
+msgid "PLACEHOLDER_TERMS_OF"
+msgstr "Terms of Services"
+
+msgctxt "FOUND"
+msgid "MESSAGE_NOTHING"
+msgstr "Nothing Found"
+
+msgctxt "YET"
+msgid "MESSAGE_NOT_SERVICE"
+msgstr "Service not available yet."
+
+msgctxt "TERMS"
+msgid "MESSAGE"
+msgstr "You have to agree and download the terms."
+
+msgctxt "TERMS"
+msgid "NEW_ACCOUNT_ACCEPT"
+msgstr "I agree with Terms of Services"
+
+msgctxt "AGE"
+msgid "MESSAGE"
+msgstr "You must be over 18 years old"
+
+msgctxt "AGE"
+msgid "NEW_ACCOUNT_ACCEPT"
+msgstr "I confirm that I am over 18 years old"
+
+msgctxt "IS"
+msgid "TEXT"
+msgstr "is"
+
+msgctxt "LOW"
+msgid "TEXT"
+msgstr "Low"
+
+msgctxt "LOW"
+msgid "FEE"
+msgstr "Low"
+
+msgctxt "MEDIUM"
+msgid "TEXT"
+msgstr "Medium"
+
+msgctxt "MEDIUM"
+msgid "FEE"
+msgstr "Medium"
+
+msgctxt "HIGH"
+msgid "TEXT"
+msgstr "High"
+
+msgctxt "HIGH"
+msgid "FEE"
+msgstr "High"
+
+msgctxt "PREV"
+msgid "TEXT"
+msgstr "Prev"
+
+msgctxt "PREV"
+msgid "BTN"
+msgstr "Previous"
+
+msgctxt "UNAVAILABLE"
+msgid "TEXT"
+msgstr "Unavailable"
+
+msgctxt "TO"
+msgid "TEXT"
+msgstr "To:"
+
+msgctxt "TO"
+msgid "PAYMENT_PASS"
+msgstr " to the address "
+
+msgctxt "TO"
+msgid "RECHARGE_PASS"
+msgstr " for "
+
+msgctxt "FROM"
+msgid "TEXT"
+msgstr "From:"
+
+msgctxt "PROMOTIONAL"
+msgid "TEXT"
+msgstr "Promo:"
+
+msgctxt "ID"
+msgid "TEXT"
+msgstr "ID:"
+
+msgctxt "BLOCKEXPLORER"
+msgid "TEXT"
+msgstr "Blockexplorer:"
+
+msgctxt "ATTENTION"
+msgid "TEXT"
+msgstr "ATTENTION"
+
+msgctxt "GO"
+msgid "BTN"
+msgstr "Go"
+
+msgctxt "SOON"
+msgid "BTN_COMMING"
+msgstr "Soon"
+
+msgctxt "SOON"
+msgid "P2P_COMING"
+msgstr "Rating coming soon !"
+
+msgctxt "DESCRIPTION"
+msgid "LOGIN_SLIDE"
+msgid_plural "LOGIN_SLIDE"
+msgstr[0] ""
+"Perform cell phone credit recharges with your virtual coins quickly and "
+"securely."
+msgstr[1] "Manage your favorite cryptocurrencies all on the same place"
+msgstr[2] ""
+"Make the payment using your favorite cryptocurrency in an easy and "
+"intuitive way."
+msgstr[3] ""
+"Turn digital currencies into Reais by electronic transfer to major banks in "
+"Brazil."
+
+msgctxt "DESCRIPTION"
+msgid "SETTINGS_CONSENTS_TERMS"
+msgstr "Do you accept the GDPR terms?"
+
+msgctxt "DESCRIPTION"
+msgid "SET_ALIAS"
+msgstr ""
+"You can customize a name for your wallet Lunes, if you prefer. If you make "
+"this change, the amount to be deducted from your balance is 5 LUNES."
+
+msgctxt "DESCRIPTION"
+msgid "CARD_HOME"
+msgid_plural "CARD_HOME"
+msgstr[0] ""
+"Recharge your cell phone, anywhere, anytime, using the available "
+"cryptomedas in the HTT Wallet, quickly, easily and safely."
+msgstr[1] ""
+"Pay your bank cards with cryptos in the simplest way possible. A quick and "
+"easy procedure, with all the security and confidence that only Lunes has."
+msgstr[2] ""
+"Now you can choose and favor your favorite coins. Work only with the coins "
+"you want, without the need to view all."
+msgstr[3] ""
+"Complete the step-by-step and redeem your purchased coins through the "
+"coupon or voucher at one of the crypto-coin sales outlets."
+msgstr[4] ""
+"The HTT Wallet is the safest way to store your crypto coins. Import "
+"wallets, see your history, transfer, receive, check out quotes and more."
+msgstr[5] ""
+"Make the low risk investment that returns you up to 5% per year. Have total "
+"security and control of your coins, with a better income than savings."
+
+msgctxt "DESCRIPTION"
+msgid "PAYMENT_SHORT"
+msgstr "Short description"
+
+msgctxt "DESCRIPTION"
+msgid "RECHARGE"
+msgstr "Recharge your mobile phone with credits and pay with cryptocurrency"
+
+msgctxt "DESCRIPTION"
+msgid "BUYCOINS"
+msgstr "Buy your cryptos quickly, easily and safely."
+
+msgctxt "DESCRIPTION"
+msgid "COINSALE"
+msgstr "Buy your cryptos quickly, easily and safely."
+
+msgctxt "DESCRIPTION"
+msgid "P2P_CREATE_OFFER"
+msgstr "Description"
+
+msgctxt "DESCRIPTION"
+msgid "P2P_PROFILE"
+msgstr "Description"
+
+msgctxt "DESCRIPTION"
+msgid "P2P_HEADER"
+msgstr "Description"
+
+msgctxt "DESCRIPTION"
+msgid "P2P_PLANS"
+msgstr ""
+"The signature of the P2P service will be open in a beta test for one month "
+"to all wallet users. After this period, to negotiate on the P2P platform "
+"will require buying a signature with Lunes payment."
+
+msgctxt "DESCRIPTION"
+msgid "P2P_MONTHLY_SIGNATURE"
+msgstr "The P2P basic plan will allow you to use the service for one month."
+
+msgctxt "DESCRIPTION"
+msgid "P2P_QUARTERLY_SIGNATURE"
+msgstr "The P2P basic plan will allow you to use the service for three months."
+
+msgctxt "DESCRIPTION"
+msgid "P2P_SEMESTER_SIGNATURE"
+msgstr "The P2P basic plan will allow you to use the service for six months."
+
+msgctxt "DESCRIPTION"
+msgid "P2P_YEARLY_SIGNATURE"
+msgstr "The P2P basic plan will allow you to use the service for one year."
+
+msgctxt "RULES"
+msgid "ALIAS"
+msgid_plural "ALIAS"
+msgstr[0] "Only these characters are allowed: "
+msgstr[1] "'-.0123456789@_abcdefghijklmnopqrstuvwxyz"
+
+msgctxt "ADDRESS"
+msgid "PLACEHOLDER_EX"
+msgstr "Ex: 37n724hxf4XnCFfJFnCzj4TbYryoizdfGCV"
+
+msgctxt "ADDRESS"
+msgid "SETTINGS_USER"
+msgstr "Address"
+
+msgctxt "ADDRESS"
+msgid "MESSAGE_INVALID"
+msgstr "Invalid Address"
+
+msgctxt "ADDRESS"
+msgid "MODAL_SEND"
+msgstr "Enter the wallet address"
+
+msgctxt "ADDRESS"
+msgid "MODAL_SEND_QR_CODE"
+msgstr "Send Scanning QR Code"
+
+msgctxt "ADDRESS"
+msgid "MODAL_SEND_TO"
+msgstr " to the address "
+
+msgctxt "ADDRESS"
+msgid "P2P_INPUT_PUT_YOUR"
+msgstr "Put your address"
+
+msgctxt "ADDRESS"
+msgid "P2P_CREATE_OFFER"
+msgstr "Payment address"
+
+msgctxt "ADDRESS"
+msgid "P2P_CHANGE"
+msgstr "Fill the address for receive"
+
+msgctxt "INSTRUCTIONS"
+msgid "2FA"
+msgid_plural "2FA"
+msgstr[0] ""
+"Confirm with the code provided in google authenticator and enter the 6 "
+"digits below"
+msgstr[1] "Enter the six-digit code of the second factor of your HTT Wallet!"
+
+msgctxt "INSTRUCTIONS"
+msgid "RESET"
+msgstr "We will send the instructions"
+
+msgctxt "INSTRUCTIONS"
+msgid "COUPON"
+msgstr "Information"
+
+msgctxt "INSTRUCTIONS"
+msgid "MODAL_SEND_QR_CODE"
+msgstr ""
+"If you are using desktop device, you will need to use a webcam to scan the "
+"QR code in order to send your coins."
+
+msgctxt "INSTRUCTIONS"
+msgid "MODAL_SEND_AMOUNT"
+msgstr "You can also send a part of all your assets"
+
+msgctxt "HINT"
+msgid "RESET_NEW_PASSWORD"
+msgid_plural "RESET_NEW_PASSWORD"
+msgstr[0] "Numbers"
+msgstr[1] "Symbols"
+msgstr[2] "Min 8 characters"
+msgstr[3] "Upcase letter"
+msgstr[4] "Downcase letter"
+
+msgctxt "ERROR"
+msgid "RESET_NEW_PASSWORD"
+msgid_plural "RESET_NEW_PASSWORD"
+msgstr[0] "The password must meet the items described."
+msgstr[1] "Passwords are not the same"
+
+msgctxt "ERROR"
+msgid "SETTINGS_NEW_PASSWORD"
+msgstr "The new password is invalid"
+
+msgctxt "ERROR"
+msgid "SETTINGS_CONFIRM_NEW_PASSWORD"
+msgstr "New password and confirm password are not the same"
+
+msgctxt "ERROR"
+msgid "PAGE"
+msgid_plural "PAGE"
+msgstr[0] "Your session has expired, please sign in again"
+msgstr[1] "Your session has expired, please sign in again"
+msgstr[2] "Oh, No!... Page not found"
+
+msgctxt "ERROR"
+msgid "BTN_SEND"
+msgstr "Unavaliable"
+
+msgctxt "ERROR"
+msgid "COUPON_SERVER"
+msgstr "An error ocurred in our server, try again later"
+
+msgctxt "ERROR"
+msgid "COUPON_UNKNOWN"
+msgid_plural "COUPON_UNKNOWN"
+msgstr[0] "An unknown error occurred when trying to verify that coupon, code"
+msgstr[1] "An unknown error occurred when trying to verify that coupon, code"
+msgstr[2] "An unknown error occurred when trying to verify that coupon, code"
+
+msgctxt "ERROR"
+msgid "VOUCHER_BUTTON"
+msgstr "Error"
+
+msgctxt "ERROR"
+msgid "WALLET_UTXOS_UNKNOWN"
+msgstr "There's a unknown problem with UTXOS"
+
+msgctxt "ERROR"
+msgid "PAYMENT_TERMS"
+msgstr "You must accept the GDPR terms to continue"
+
+msgctxt "ERROR"
+msgid "PAYMENT_AMOUNT"
+msgstr "Your balance is insufficient to make this payment"
+
+msgctxt "ERROR"
+msgid "MODAL_SEND_INFO"
+msgstr "Shipping procedure failed"
+
+msgctxt "ERROR"
+msgid "RECHARGE_AMOUNT"
+msgstr "Your balance is insufficient to make this recharge"
+
+msgctxt "ERROR"
+msgid "ASSETS_SERVER"
+msgstr "An error ocurred in our server, try again later on"
+
+msgctxt "ERROR"
+msgid "ASSETS_UNKNOWN"
+msgstr "Unknown error on trying to do assets' request."
+
+msgctxt "ERROR"
+msgid "BUYCOINS_INFO"
+msgstr "Your purchase of cryptocurrency has failed"
+
+msgctxt "ERROR"
+msgid "INVITE"
+msgid_plural "INVITE"
+msgstr[0] "Invalid e-mail"
+msgstr[1] "Change e-mail"
+msgstr[2] "Await address loaded"
+
+msgctxt "ERROR"
+msgid "SEND_MAIL_INVITE"
+msgstr "Failed to send"
+
+msgctxt "ERROR"
+msgid "COINSALE_INFO"
+msgstr "Your purchase of cryptocurrency has failed"
+
+msgctxt "ERROR"
+msgid "P2P"
+msgid_plural "P2P"
+msgstr[0] "Enter the coin to accept as payment"
+msgstr[1] "Enter the amount"
+msgstr[2] "Enter the value"
+msgstr[3] "Enter the payment address"
+msgstr[4] "Enter a brief description"
+msgstr[5] "Choose the type"
+msgstr[6] "Enter the coin to sell"
+
+msgctxt "BARCODE"
+msgid "PAYMENT_MESSAGE"
+msgstr "Barcode could not be mistaken. Start the numbers manually."
+
+msgctxt "SIZE"
+msgid "PAYMENT_FILE"
+msgstr "File size exceeds established limit (2MB)."
+
+msgctxt "SUCCESS"
+msgid "MODAL_LEASING_MESSAGE"
+msgstr "Leasing started!"
+
+msgctxt "SUCCESS"
+msgid "SETTINGS_CHANGE_PASSWORD"
+msgstr "Password successfully changed"
+
+msgctxt "SUCCESS"
+msgid "MODAL_LEASING_CANCEL"
+msgstr "Canceled successfully!"
+
+msgctxt "SUCCESS"
+msgid "PAYMENT"
+msgid_plural "PAYMENT"
+msgstr[0] "You just paid for the ticket"
+msgstr[1] " in your wallet Lunes"
+
+msgctxt "SUCCESS"
+msgid "MODAL_SEND_INFO"
+msgstr "Your submission was successful"
+
+msgctxt "SUCCESS"
+msgid "RECHARGE"
+msgid_plural "RECHARGE"
+msgstr[0] "You have successfully loaded your cell phone!"
+msgstr[1] "View your refill history on the History tab"
+
+msgctxt "SUCCESS"
+msgid "ALIAS_CREATED"
+msgstr "Alias created successfuly!"
+
+msgctxt "SUCCESS"
+msgid "BUYCOINS"
+msgid_plural "BUYCOINS"
+msgstr[0] "You have successfully completed the purchase!"
+msgstr[1] "View your purchase history in the History tab"
+
+msgctxt "SUCCESS"
+msgid "SEND_MAIL_INVITE"
+msgstr "Successfully sent"
+
+msgctxt "SUCCESS"
+msgid "COINSALE"
+msgid_plural "COINSALE"
+msgstr[0] "You have successfully completed the purchase!"
+msgstr[1] "View your purchase history in the History tab"
+
+msgctxt "SUCCESS"
+msgid "P2P_MODAL_SEND_INFO"
+msgstr "Rating successfully completed"
+
+msgctxt "CUPON"
+msgid "INSTRUCTION_MODAL"
+msgid_plural "INSTRUCTION_MODAL"
+msgstr[0] "Enter the 4-digit code of the your coupon"
+msgstr[1] "Rescue"
+msgstr[2] "Choose which option you have"
+msgstr[3] "Enter your mobile phone number with DDD and carrier (Only voucher)"
+
+msgctxt "TITLE"
+msgid "COUPON"
+msgid_plural "COUPON"
+msgstr[0] "Coupon"
+msgstr[1] "Voucher"
+msgstr[2] "Promotion"
+
+msgctxt "TITLE"
+msgid "SETTING_WALLETS"
+msgstr "Wallets"
+
+msgctxt "TITLE"
+msgid "SECURITY"
+msgstr "2FA Authenticator"
+
+msgctxt "TITLE"
+msgid "DEFINITIONS"
+msgstr "Definitions"
+
+msgctxt "TITLE"
+msgid "CONSENT"
+msgstr "Consent"
+
+msgctxt "TITLE"
+msgid "SET_SEED"
+msgstr "ACCOUNT INFORMATION BACKUP"
+
+msgctxt "TITLE"
+msgid "CARD_HOME"
+msgid_plural "CARD_HOME"
+msgstr[0] "Recharges"
+msgstr[1] "Invoices"
+msgstr[2] "Favorites Coins"
+msgstr[3] "Withdrawal"
+msgstr[4] "Wallet"
+msgstr[5] "Leasing"
+
+msgctxt "TITLE"
+msgid "2FA_INSTRUCTIONS"
+msgstr "Device verification"
+
+msgctxt "TITLE"
+msgid "WALLET_MODAL_SEND"
+msgstr "Transaction"
+
+msgctxt "TITLE"
+msgid "WALLET_MODAL_RECEIVE"
+msgstr "Receive"
+
+msgctxt "TITLE"
+msgid "TRANSACTION_HISTORY"
+msgstr "Transactions"
+
+msgctxt "TITLE"
+msgid "SETTINGS"
+msgstr "Choose the right privacy settings for you"
+
+msgctxt "TITLE"
+msgid "PAYMENT_MODAL"
+msgstr "Invoice Payment"
+
+msgctxt "TITLE"
+msgid "PAYMENT_TERMS"
+msgstr "GDPR Term"
+
+msgctxt "TITLE"
+msgid "PAYMENT_HEADER"
+msgstr "Invoice Payment"
+
+msgctxt "TITLE"
+msgid "PAYMENT"
+msgstr "Invoices"
+
+msgctxt "TITLE"
+msgid "RECHARGE"
+msgstr "Mobile Credits Recharge"
+
+msgctxt "TITLE"
+msgid "BUYCOINS"
+msgstr "BUY CRYPTOCURRENCIES"
+
+msgctxt "TITLE"
+msgid "BUYCOINS_PURCHASE_TAB"
+msgstr "Buy coins"
+
+msgctxt "TITLE"
+msgid "BUYCOINS_HISTORY_TAB"
+msgstr "History"
+
+msgctxt "TITLE"
+msgid "COINSALE"
+msgstr "BUY CRYPTOCURRENCIES"
+
+msgctxt "TITLE"
+msgid "COINSALE_PURCHASE_TAB"
+msgstr "Buy coins"
+
+msgctxt "TITLE"
+msgid "COINSALE_HISTORY_TAB"
+msgstr "History"
+
+msgctxt "CARD"
+msgid "SETTINGS"
+msgid_plural "SETTINGS"
+msgstr[0] "WALLETS"
+msgstr[1] "CONSENT"
+msgstr[2] "DEFINITIONS"
+msgstr[3] "P2P"
+msgstr[4] "USER DATA"
+msgstr[5] "2FA AUTHENTICATION"
+
+msgctxt "USER"
+msgid "SETTINGS"
+msgstr "User profile"
+
+msgctxt "BACK"
+msgid "SETTINGS_USER"
+msgstr "Back to the settings"
+
+msgctxt "BACK"
+msgid "BTN"
+msgstr "Back"
+
+msgctxt "IMAGE"
+msgid "SETTINGS_USER"
+msgstr "User image"
+
+msgctxt "STATUS"
+msgid "SETTINGS_USER"
+msgstr "Status"
+
+msgctxt "STATUS"
+msgid "LEASING_TITLE"
+msgstr "Status "
+
+msgctxt "STATUS"
+msgid "INVITE_TITLE"
+msgstr "Status"
+
+msgctxt "VERIFIED"
+msgid "SETTINGS_USER_ACCOUNT"
+msgstr "Account verified"
+
+msgctxt "VERIFIED"
+msgid "SETTINGS_USER_ACCOUNT_NOT"
+msgstr "Account not verified"
+
+msgctxt "VERIFIED"
+msgid "SETTINGS_USER_EMAIL"
+msgstr "E-mail verified"
+
+msgctxt "VERIFIED"
+msgid "SETTINGS_USER_EMAIL_NOT"
+msgstr "E-mail not verified"
+
+msgctxt "VERIFIED"
+msgid "SETTINGS_USER_2FA"
+msgstr "2FA verified"
+
+msgctxt "VERIFIED"
+msgid "SETTINGS_USER_2FA_NOT"
+msgstr "2FA not verified"
+
+msgctxt "VERIFIED"
+msgid "EMAIL_NOT"
+msgstr "E-mail not verified, please check your inbox"
+
+msgctxt "NAME"
+msgid "SETTINGS_USER_FIRST"
+msgstr "First name"
+
+msgctxt "NAME"
+msgid "SET_ALIAS_SAVE"
+msgstr "Save"
+
+msgctxt "NAME"
+msgid "PLACEHOLDER_FIRST"
+msgstr "First name"
+
+msgctxt "NAME"
+msgid "PLACEHOLDER_LAST"
+msgstr "Last name"
+
+msgctxt "NAME"
+msgid "PAYMENT_TITLE"
+msgstr "Name"
+
+msgctxt "NAME"
+msgid "PAYMENT"
+msgstr "Name"
+
+msgctxt "NAME"
+msgid "PAYMENT_FIND"
+msgstr "Find by name"
+
+msgctxt "SURNAME"
+msgid "SETTINGS_USER"
+msgstr "Surname"
+
+msgctxt "CONTACT"
+msgid "SETTINGS_USER"
+msgstr "Contact"
+
+msgctxt "CODE"
+msgid "SETTINGS_USER"
+msgstr "Code"
+
+msgctxt "CODE"
+msgid "SETTINGS_USER_ZIP"
+msgstr "Zip code"
+
+msgctxt "CODE"
+msgid "VOUCHER"
+msgstr "Code"
+
+msgctxt "CODE"
+msgid "MODAL_SEND_QR"
+msgstr "Send Scanning QR Code"
+
+msgctxt "NUMBER"
+msgid "SETTINGS_USER"
+msgstr "Phone"
+
+msgctxt "NUMBER"
+msgid "VOUCHER"
+msgstr "Number"
+
+msgctxt "BIRTHDATE"
+msgid "SETTINGS_USER"
+msgstr "Birth date"
+
+msgctxt "DAY"
+msgid "SETTINGS_USER"
+msgstr "Day"
+
+msgctxt "MONTH"
+msgid "SETTINGS_USER"
+msgstr "Month"
+
+msgctxt "YEAR"
+msgid "SETTINGS_USER"
+msgstr "Year"
+
+msgctxt "SELECT"
+msgid "SETTINGS_USER"
+msgstr "Select"
+
+msgctxt "SELECT"
+msgid "BUY_PAYMENT"
+msgstr "Select a payment method"
+
+msgctxt "SELECT"
+msgid "COINSALE_PAYMENT"
+msgstr "Select a payment method"
+
+msgctxt "CITY"
+msgid "SETTINGS_USER"
+msgstr "City"
+
+msgctxt "STATE"
+msgid "SETTINGS_USER"
+msgstr "State"
+
+msgctxt "DATA"
+msgid "SETTINGS_USER_SAVE"
+msgstr "Save data"
+
+msgctxt "DATA"
+msgid "P2P_PROFILE"
+msgstr "Data"
+
+msgctxt "LUNES"
+msgid "SETTINGS_ALIAS_WALLET"
+msgstr "Lunes"
+
+msgctxt "ITEM"
+msgid "SECURITY"
+msgid_plural "SECURITY"
+msgstr[0] "Enter the Authentication Number to enable 2FA in your account."
+msgstr[1] "Install Google Authenticator on your smartphone"
+msgstr[2] "Open Google Authenticator, enter the code manually or read the QR code below"
+
+msgctxt "RETURN"
+msgid "SETTING_LINK"
+msgstr "Back to the settings"
+
+msgctxt "RETURN"
+msgid "SECURITY_LINK"
+msgstr "Back to the settings"
+
+msgctxt "REGISTRED"
+msgid "SECURITY_2FA"
+msgstr "Two Factor Authentication already registered!"
+
+msgctxt "REGISTRED"
+msgid "NOTIFICATION_SERVICE_ALREADY"
+msgstr "You are already registered"
+
+msgctxt "WORDS"
+msgid "SET_SEED"
+msgstr "Your key words"
+
+msgctxt "IMPORT"
+msgid "SET_BUTTON_SEED"
+msgstr "Import Seed"
+
+msgctxt "REMOVE"
+msgid "SET_BUTTON"
+msgstr "Remove"
+
+msgctxt "FAV"
+msgid "SET_BUTTON"
+msgstr "Favorit"
+
+msgctxt "TITLE1"
+msgid "SET_DEFINITIONS"
+msgstr "Default settings by region"
+
+msgctxt "DESC1"
+msgid "SET_DEFINITIONS"
+msgstr ""
+"The selected language will automatically be displayed when you access your "
+"platform."
+
+msgctxt "TITLE2"
+msgid "SET_DEFINITIONS"
+msgstr "Logout Options"
+
+msgctxt "OPTION1"
+msgid "SET_DEFINITIONS"
+msgstr ""
+"Delete all local metadata when logging out - your next login will take "
+"longer to process."
+
+msgctxt "OPTION2"
+msgid "SET_DEFINITIONS"
+msgstr "Save the encrypted metadata locally for a faster login at your next session."
+
+msgctxt "LANG"
+msgid "SET_DEFINITIONS_LABEL"
+msgstr "Interface language"
+
+msgctxt "LANG"
+msgid "LOGIN_FOOTER"
+msgstr "English"
+
+msgctxt "CURR"
+msgid "SET_DEFINITIONS_LABEL"
+msgstr "Standard Fiat currency"
+
+msgctxt "COIN"
+msgid "SET_DEFINITIONS_LABEL"
+msgstr "Default Currency"
+
+msgctxt "COIN"
+msgid "BUY_SEL"
+msgstr "Select a coin"
+
+msgctxt "COIN"
+msgid "BUY_PAYMENT"
+msgstr "Coin for payment"
+
+msgctxt "COIN"
+msgid "BUY_METHOD"
+msgstr "Cryptocurrency"
+
+msgctxt "COIN"
+msgid "BUY_ERROR"
+msgstr "Select a coin"
+
+msgctxt "COIN"
+msgid "COINSALE_SEL"
+msgstr "Select a coin"
+
+msgctxt "COIN"
+msgid "COINSALE_PAYMENT"
+msgstr "Coin for payment"
+
+msgctxt "COIN"
+msgid "COINSALE_METHOD"
+msgstr "Cryptocurrency"
+
+msgctxt "COIN"
+msgid "COINSALE_ERROR"
+msgstr "Select a coin"
+
+msgctxt "COIN"
+msgid "P2P_FAILED_TO_BUY"
+msgstr "Failed to buy this coin, try again later or contact us"
+
+msgctxt "REDIRECT"
+msgid "PAGE_ERROR_500"
+msgstr "Redirecting in"
+
+msgctxt "DEFAULT"
+msgid "LEASING_SELECT_NODE"
+msgstr "Professional Nodes"
+
+msgctxt "FIELD"
+msgid "LEASING_NOT_INFORMED"
+msgstr "No Information"
+
+msgctxt "CONFIRM"
+msgid "MODAL_LEASING"
+msgstr "Do you really want to cancel?"
+
+msgctxt "CONFIRM"
+msgid "BTN"
+msgstr "Confirm"
+
+msgctxt "CONFIRM"
+msgid "PAYMENT"
+msgid_plural "PAYMENT"
+msgstr[0] ""
+"The average payment confirmation time is up to 30 minutes. Only complete "
+"the payment if you agree."
+msgstr[1] "Confirm your data to complete your payment"
+msgstr[2] "You will be charged from your wallet "
+
+msgctxt "CONFIRM"
+msgid "RECHARGE"
+msgid_plural "RECHARGE"
+msgstr[0] ""
+"The average recharge confirmation time is up to 30 minutes. Only complete "
+"the recharge if you agree."
+msgstr[1] "Confirm your data to complete your recharge"
+msgstr[2] "You will be charged from your wallet "
+
+msgctxt "CONFIRM"
+msgid "BUYCOINS"
+msgid_plural "BUYCOINS"
+msgstr[0] "send"
+msgstr[1] "Insert your password and confirm the "
+
+msgctxt "CONFIRM"
+msgid "COINSALE"
+msgid_plural "COINSALE"
+msgstr[0] "send"
+msgstr[1] "Insert your password and confirm the "
+
+msgctxt "CONFIRM"
+msgid "P2P_BUTTON"
+msgstr "Conclude"
+
+msgctxt "FAILURE"
+msgid "MODAL_LEASING_MESSAGE"
+msgstr "Could not start the leasing"
+
+msgctxt "FAILURE"
+msgid "MODAL_LEASING_CANCEL"
+msgstr "Could not cancel the leasing"
+
+msgctxt "FILEDS"
+msgid "MESSAGE_ERROR"
+msgstr "The following fields are missing or wrong"
+
+msgctxt "FILEDS"
+msgid "MESSAGE_ERROR_EMPTY"
+msgstr "Some fields are empty"
+
+msgctxt "SEED"
+msgid "PLACEHOLDER"
+msgstr ""
+"Write down the seed you have generated (12 words in English) in a safe "
+"place. Only you have access to it and through the 12 words you can access "
+"your wallet in blockchain."
+
+msgctxt "SEED"
+msgid "BTN_IMPORT"
+msgstr "Import"
+
+msgctxt "SEED"
+msgid "BTN_NEW"
+msgstr "GENERATE NEW SEED"
+
+msgctxt "SEED"
+msgid "SEED_INSERT"
+msgstr "Insert your SeedWords"
+
+msgctxt "REPEAT"
+msgid "PLACEHOLDER_PASSWORD"
+msgstr "Repeat password"
+
+msgctxt "SUBMIT"
+msgid "BTN"
+msgstr "Submit"
+
+msgctxt "SEND"
+msgid "BTN"
+msgstr "Send"
+
+msgctxt "SEND"
+msgid "MODAL_TO_SEND"
+msgstr " You are sending "
+
+msgctxt "SEND"
+msgid "INVITE_BUTTON"
+msgstr "Send"
+
+msgctxt "DISABLED"
+msgid "BTN"
+msgstr "Disabled"
+
+msgctxt "LOADING"
+msgid "BTN_SEND"
+msgstr "Loading..."
+
+msgctxt "RECEIVE"
+msgid "BTN"
+msgstr "Receive"
+
+msgctxt "CREATE"
+msgid "BTN"
+msgstr "Create"
+
+msgctxt "CREATE"
+msgid "PIN"
+msgstr "CREATE your PIN"
+
+msgctxt "NEXT"
+msgid "BTN"
+msgstr "Next"
+
+msgctxt "LOGIN"
+msgid "BTN"
+msgstr "Login"
+
+msgctxt "LOGIN"
+msgid "NOTIFICATION_SERVICE_INVALID"
+msgstr "Invalid Username/Email or Password"
+
+msgctxt "PIN"
+msgid "BTN_CONFIRM"
+msgstr "Validate"
+
+msgctxt "RESET"
+msgid "BTN"
+msgstr "Reset"
+
+msgctxt "SAVE"
+msgid "BTN"
+msgstr "Save"
+
+msgctxt "2FA"
+msgid "BTN"
+msgstr "Enable 2FA"
+
+msgctxt "2FA"
+msgid "NOTIFICATION_SERVICE_NOT"
+msgstr "Could not verify 2FA"
+
+msgctxt "2FA"
+msgid "NOTIFICATION_SERVICE_ENABLE"
+msgstr "Could not enable two-factor authentication"
+
+msgctxt "2FA"
+msgid "NOTIFICATION_SERVICE_INVALID"
+msgstr "Invalid 2FA token"
+
+msgctxt "FINALIZE"
+msgid "BTN"
+msgstr "Finalize"
+
+msgctxt "CONTINUE"
+msgid "BTN"
+msgstr "Continue"
+
+msgctxt "HOME"
+msgid "BTN"
+msgstr "Home"
+
+msgctxt "HOME"
+msgid "LOGIN_FOOTER"
+msgstr "Main"
+
+msgctxt "HOME"
+msgid "MENU"
+msgstr "Home"
+
+msgctxt "HEADER"
+msgid "LOGIN"
+msgstr "Enter your data"
+
+msgctxt "HEADER"
+msgid "NEW_ACCOUNT"
+msgstr "Enter the necessary information to make your registration"
+
+msgctxt "HEADER"
+msgid "NEW_ACCOUNT_PASSWORD"
+msgstr "Digit your password"
+
+msgctxt "HEADER"
+msgid "2FA"
+msgstr "2FA Confirmation"
+
+msgctxt "HEADER"
+msgid "RESET"
+msgstr "Forgot your password"
+
+msgctxt "HEADER"
+msgid "RESET_NEW_PASSWORD"
+msgstr "Type your new password"
+
+msgctxt "LINK"
+msgid "LOGIN_FORGET_PASSWORD"
+msgstr "Forgot your password?"
+
+msgctxt "LINK"
+msgid "LOGIN_SINGUP_ACCOUNT"
+msgstr "Sign up"
+
+msgctxt "LINK"
+msgid "PIN_FORGET_PIN"
+msgstr "Forgot your PIN"
+
+msgctxt "LABEL"
+msgid "LOGIN_CREATE_ACCOUNT"
+msgstr "Do not have an account yet"
+
+msgctxt "LABEL"
+msgid "LEASING_AMOUNT"
+msgstr "Amount to lease"
+
+msgctxt "LABEL"
+msgid "LEASING_BALANCE"
+msgstr "Your balance"
+
+msgctxt "LABEL"
+msgid "ACCEPT_INVITE"
+msgstr "You were invited by "
+
+msgctxt "ASSETS"
+msgid "MENU"
+msgstr "Assets"
+
+msgctxt "SUPPORT"
+msgid "LOGIN_FOOTER"
+msgstr "Support"
+
+msgctxt "SUPPORT"
+msgid "MENU"
+msgstr "Support"
+
+msgctxt "FOOTER"
+msgid "LOGIN"
+msgstr "2018 lunes.io All Rights Reserved"
+
+msgctxt "ENTER"
+msgid "PIN"
+msgstr "ENTER your PIN"
+
+msgctxt "SENDED"
+msgid "NEW_ACCOUNT_MESSAGE"
+msgstr "Account created successfully."
+
+msgctxt "SENDED"
+msgid "RESET_EMAIL"
+msgstr "A message with a temporary password has been sent to your email address"
+
+msgctxt "DOWNLOAD"
+msgid "NEW_ACCOUNT_TERMS"
+msgstr "Click Here to download and finish the registration"
+
+msgctxt "AUTHORIZED"
+msgid "COUPON_USER_NOT"
+msgstr ""
+"You are not authorized to do this request, verify if you are correctly "
+"logged in"
+
+msgctxt "LENGTH"
+msgid "SHORT_COUPON"
+msgstr "Coupon length is less than 19 characters"
+
+msgctxt "INVALID"
+msgid "COUPON"
+msgstr "The coupon is not valid"
+
+msgctxt "EXPIRED"
+msgid "COUPON"
+msgstr "The coupon is expired"
+
+msgctxt "FIND"
+msgid "2FA_INSTRUCTIONS_LINK_WHERE_TO"
+msgstr "Where do I find the code"
+
+msgctxt "FIND"
+msgid "RECHARGE"
+msgstr "Search by number"
+
+msgctxt "INSTRUCTIONS2"
+msgid "RESET"
+msgstr "About resetting it"
+
+msgctxt "INSTRUCTION"
+msgid "RESET_NEW_PASSWORD"
+msgstr "Your password must follow the rules below"
+
+msgctxt "LOGOUT"
+msgid "MENU"
+msgstr "Logout"
+
+msgctxt "PORTFOLIO"
+msgid "MENU"
+msgstr "Portfolio"
+
+msgctxt "WALLET"
+msgid "MENU"
+msgstr "Wallet"
+
+msgctxt "RECHARGE"
+msgid "MENU"
+msgstr "Recharge"
+
+msgctxt "RECHARGE"
+msgid "RECHARGE_TAB_TITLE"
+msgstr "New recharge"
+
+msgctxt "PAY"
+msgid "MENU"
+msgstr "Pay"
+
+msgctxt "PAY"
+msgid "PAYMENT_BTN"
+msgstr "Pay now"
+
+msgctxt "PAY"
+msgid "INSTRUCTION_MODAL"
+msgid_plural "INSTRUCTION_MODAL"
+msgstr[0] "Lunes (LUNES)"
+msgstr[1] "Above de R$3.000,01 - 4,5%"
+msgstr[2] "Up to R$1.000,00 - 6%."
+msgstr[3] "From R$1.000,01 to R$3.000,00 - 5%"
+
+msgctxt "PAY"
+msgid "BUY_ERROR_COIN"
+msgstr "Select a coin for payment"
+
+msgctxt "PAY"
+msgid "COINSALE_ERROR_COIN"
+msgstr "Select a coin for payment"
+
+msgctxt "PURCHASE"
+msgid "MENU"
+msgstr "Purchase"
+
+msgctxt "PURCHASE"
+msgid "P2P_TAB"
+msgstr "Purchase"
+
+msgctxt "COUPONS"
+msgid "MENU"
+msgstr "Coupons"
+
+msgctxt "SETTING"
+msgid "MENU"
+msgstr "Settings"
+
+msgctxt "LEASING"
+msgid "MENU"
+msgstr "Leasing"
+
+msgctxt "LEASING"
+msgid "MODAL_TITLE_START"
+msgstr "Start Leasing"
+
+msgctxt "PRIVACY"
+msgid "MENU"
+msgstr "Privacy"
+
+msgctxt "EMPTY"
+msgid "WALLET_UTXOS"
+msgid_plural "WALLET_UTXOS"
+msgstr[0] "Congested network or insufficient balance."
+msgstr[1] "There's a problem: no UTXOS, code 2"
+
+msgctxt "MESSAGE"
+msgid "MODAL_RECEIVE"
+msgstr "Address copied"
+
+msgctxt "COPY"
+msgid "BTN_RECEIVE"
+msgstr "Copy"
+
+msgctxt "PRINT"
+msgid "BTN_RECEIVE"
+msgstr "Print"
+
+msgctxt "SHARE"
+msgid "BTN_RECEIVE"
+msgstr "Share"
+
+msgctxt "SHARE"
+msgid "INVITE_LINK"
+msgstr "Share link"
+
+msgctxt "BALANCE"
+msgid "WALLET"
+msgstr "Balance"
+
+msgctxt "BALANCE"
+msgid "LEASING"
+msgstr "Total Lunes Balance"
+
+msgctxt "BALANCE"
+msgid "INVITE_NO"
+msgstr "No balance available"
+
+msgctxt "BALANCE"
+msgid "INVITE_ACCUMULATED"
+msgstr "Accumulated value"
+
+msgctxt "TEXT"
+msgid "LEASING_HELP"
+msgstr ""
+"Always keep at least 2 or more Lunes in your wallet. A small amount of "
+"Lunes will be required to cancel the Leasing"
+
+msgctxt "TEXT"
+msgid "PAYMENT_FEE"
+msgid_plural "PAYMENT_FEE"
+msgstr[0] "You are sending "
+msgstr[1] " to the address "
+
+msgctxt "TEXT"
+msgid "PAYMENT_DETAILS"
+msgid_plural "PAYMENT_DETAILS"
+msgstr[0] ", according to information below:"
+msgstr[1] ""
+"Attention: Check below the data of your request, so that there are no "
+"errors. If the information is incorrect, click Back."
+msgstr[2] " and will be paid a title of "
+
+msgctxt "TEXT"
+msgid "RECHARGE_FEE"
+msgid_plural "RECHARGE_FEE"
+msgstr[0] "You are sending "
+msgstr[1] " for "
+
+msgctxt "TEXT"
+msgid "BUYCOINS_FEE"
+msgid_plural "BUYCOINS_FEE"
+msgstr[0] "You are sending "
+msgstr[1] " to "
+
+msgctxt "TEXT"
+msgid "INVITE"
+msgstr ""
+"You and the invited user will earn 5 LUNES after the invited user register "
+"and make at least one transaction inside the wallet , by receiving some "
+"coins or using a service"
+
+msgctxt "TEXT"
+msgid "COINSALE_FEE"
+msgid_plural "COINSALE_FEE"
+msgstr[0] "You are sending "
+msgstr[1] " to "
+
+msgctxt "TEXT"
+msgid "P2P_STATUS"
+msgid_plural "P2P_STATUS"
+msgstr[0] "Canceled"
+msgstr[1] "Progress"
+msgstr[2] "Completed"
+
+msgctxt "TEXT"
+msgid "P2P"
+msgid_plural "P2P"
+msgstr[0] "Evaluate the seller"
+msgstr[1] "Use the QR CODE or the wallet address below to pay"
+msgstr[2] "Copy code"
+msgstr[3] "Conclude"
+msgstr[4] ""
+"A person is interested in your offer and want to start a conversation with "
+"you!"
+msgstr[5] "Talk"
+msgstr[6] "Not now"
+msgstr[7] "You are sending"
+msgstr[8] "To pay for a P2P transaction"
+msgstr[9] "The fee of your transaction on the Lunes network is"
+msgstr[10] ""
+"Congratulations, you just made a sale! Once you make sure the deposit was "
+"successful, confirm the transaction."
+msgstr[11] "Evaluate the buyer"
+msgstr[12] "Sucess creating order"
+msgstr[13] "Finish and go back"
+
+msgctxt "START"
+msgid "LEASING_BT"
+msgstr "START LEASING"
+
+msgctxt "CANCEL"
+msgid "LEASING_BT"
+msgstr "Cancel"
+
+msgctxt "EXPLORER"
+msgid "LEASING_TITLE"
+msgstr "Blockexplorer"
+
+msgctxt "ACTIVE"
+msgid "LEASING_BALANCE"
+msgstr "Leasing"
+
+msgctxt "NEW"
+msgid "LEASING_TITLE"
+msgstr "New Leasing"
+
+msgctxt "NODE"
+msgid "LEASING_TITLE"
+msgstr "Node"
+
+msgctxt "BUTTON"
+msgid "VOUCHER"
+msgstr "Redeem"
+
+msgctxt "BUTTON"
+msgid "INVITE_COPY"
+msgstr "Copy"
+
+msgctxt "BUTTON"
+msgid "INVITE_SHARE"
+msgstr "Share"
+
+msgctxt "BUTTON"
+msgid "INVITE_TEXT"
+msgstr "Withdrawal"
+
+msgctxt "INFO"
+msgid "SETTINGS_HEADER"
+msgstr ""
+"Control your personal information. With these settings, you can manage "
+"which information is private and which is saved to your account to enhance "
+"your HTT Wallet experience"
+
+msgctxt "INFO"
+msgid "INSTRUCTION_MODAL_PAY"
+msgid_plural "INSTRUCTION_MODAL_PAY"
+msgstr[0] " 7 to 20 hours."
+msgstr[1] ""
+"In case of problems with order fulfillment, the sent coins will be "
+"automatically returned to the currency's Lunes address."
+msgstr[2] ""
+" Network mining fee (Value varies according to the currency network + </br> "
+"20% of the Lunes fee) + (A), (B) or (C) of the service charge."
+msgstr[3] " It varies according to the concessionaire."
+
+msgctxt "INFO"
+msgid "INSTRUCTION_MODAL_RECHARGE"
+msgid_plural "INSTRUCTION_MODAL_RECHARGE"
+msgstr[0] ""
+" Network mining fee (Value varies according to the currency network + 20% "
+"of the Lunes fee) + 5% of the service charge."
+msgstr[1] ""
+" In case of problems with order fulfillment, the coins sent will be "
+"automatically returned to the currency's Lunes address."
+
+msgctxt "INFO"
+msgid "INSTRUCTION_MODAL_BUY"
+msgid_plural "INSTRUCTION_MODAL_BUY"
+msgstr[0] ""
+"The time to complete the operation varies according to the network "
+"confirmation time of the coin chosen as payment."
+msgstr[1] ""
+"Our service fee is 5%. That is, the value used as the base price in your "
+"wallet is increased by 5% as our service fee."
+msgstr[2] ""
+"If you are using cryptocurrency as the payment form, when finishing your "
+"purchase, the coin used for the payment will be automatically debited of "
+"your HTT Wallet and the coin chosen to purchase will be sent to your "
+"address on the HTT Wallet."
+
+msgctxt "INFO"
+msgid "INSTRUCTION_MODAL_COINSALE"
+msgid_plural "INSTRUCTION_MODAL_COINSALE"
+msgstr[0] ""
+"The time to complete the operation varies according to the network "
+"confirmation time of the coin chosen as payment."
+msgstr[1] ""
+"Our service fee is 5%. That is, the value used as the base price in your "
+"wallet is increased by 5% as our service fee."
+msgstr[2] ""
+"If you are using cryptocurrency as the payment form, when finishing your "
+"purchase, the coin used for the payment will be automatically debited of "
+"your HTT Wallet and the coin chosen to purchase will be sent to your "
+"address on the HTT Wallet."
+
+msgctxt "CONFIRMATION"
+msgid "PAYMENT_PASS"
+msgstr "To confirm your transaction, enter your password and complete the "
+
+msgctxt "CONFIRMATION"
+msgid "RECHARGE_PASS"
+msgstr "Enter your password and complete the "
+
+msgctxt "CONFIRMATION"
+msgid "P2P_CREATE_OFFER_BUTTON"
+msgstr "CREATE AD"
+
+msgctxt "HISTORY"
+msgid "PAYMENT_TEXT"
+msgstr "You can view the transaction in its \"History \" section."
+
+msgctxt "HISTORY"
+msgid "PAYMENT"
+msgstr "History"
+
+msgctxt "HISTORY"
+msgid "RECHARGE_TAB_TITLE"
+msgstr "History"
+
+msgctxt "HISTORY"
+msgid "ASSETS_NO_TX"
+msgid_plural "ASSETS_NO_TX"
+msgstr[0] "You dont have any history to be shown up."
+msgstr[1] "You dont have any history to be shown up."
+msgstr[2] "You dont have any history to be shown up."
+
+msgctxt "HISTORY"
+msgid "BUYCOINS_NO"
+msgstr "You have no purchase history"
+
+msgctxt "HISTORY"
+msgid "COINSALE_NO"
+msgstr "You have no purchase history"
+
+msgctxt "BANK"
+msgid "PAYMENT_TITLE"
+msgstr "Bank / Institution"
+
+msgctxt "DATE"
+msgid "PAYMENT_TITLE"
+msgstr "Personal Indentification"
+
+msgctxt "DATE"
+msgid "PAYMENT_DUE"
+msgstr "Due date"
+
+msgctxt "DATE"
+msgid "P2P_PROFILE_USER"
+msgstr "User since"
+
+msgctxt "DOC"
+msgid "PAYMENT_TITLE"
+msgstr "CPF/CNPJ"
+
+msgctxt "VALUE"
+msgid "PAYMENT_TITLE"
+msgstr "Value"
+
+msgctxt "VALUE"
+msgid "PAYMENT"
+msgstr "Value"
+
+msgctxt "VALUE"
+msgid "RECHARGE_SELECT_TITLE"
+msgstr "Value"
+
+msgctxt "LIMIT"
+msgid "PAYMENT_AMOUNT"
+msgstr "Amount exceeds the daily limit of R$ 3,000.00"
+
+msgctxt "DESC"
+msgid "PAYMENT_TERMS"
+msgstr "Do you accept the terms?"
+
+msgctxt "HIGHT"
+msgid "FEE"
+msgstr "High"
+
+msgctxt "SUBTITLE"
+msgid "PAYMENT_HEADER"
+msgstr "Make your payments online with cryptocurrencies"
+
+msgctxt "INVOICE"
+msgid "PAYMENT"
+msgstr "Pay Invoice"
+
+msgctxt "INVOICE"
+msgid "RECHARGE_TITLE"
+msgstr "Mobile Credits Recharge "
+
+msgctxt "ASSIGNOR"
+msgid "PAYMENT"
+msgstr "Receiver"
+
+msgctxt "CNPJ"
+msgid "PAYMENT_CPF"
+msgstr "CPF / CNPJ (only numbers)"
+
+msgctxt "SYMBOL"
+msgid "PAYMENT_VALUE"
+msgstr "$"
+
+msgctxt "SEPARATOR"
+msgid "PAYMENT_DECIMAL"
+msgstr ","
+
+msgctxt "NOW"
+msgid "PAYMENT_PAY"
+msgstr "Pay now"
+
+msgctxt "UNAUTHORIZED"
+msgid "PAYMENT"
+msgstr "Unauthorized or invalid receipt"
+
+msgctxt "INSTRUCIONS"
+msgid "MODAL_TITLE"
+msgstr "Information"
+
+msgctxt "TRANSACTION"
+msgid "MODAL_SEND_INFO"
+msgstr "To confirm your transaction, enter your password and complete the "
+
+msgctxt "TRANSACTION"
+msgid "MODAL_SEND_FEE"
+msgstr "Your transaction fee on the network"
+
+msgctxt "TRANSACTION"
+msgid "ALIAS_ERROR"
+msgstr "Could not make a transaction from"
+
+msgctxt "TRANSACTION"
+msgid "ALIAS_MODAL"
+msgstr "To confirm your transaction, insert your password: "
+
+msgctxt "BLOCKCHAIN"
+msgid "MODAL_SEND_INFO"
+msgstr "Your transaction is being processed within Blockchain"
+
+msgctxt "DETAILS"
+msgid "RECHARGE"
+msgid_plural "RECHARGE"
+msgstr[0] " in credits to recharge the number below: "
+msgstr[1] ""
+"Attention: Check below the data of your request so that there are no "
+"errors. If the information is incorrect, restart."
+msgstr[2] " and will be added "
+
+msgctxt "TITTLE"
+msgid "INSTRUCTION_MODAL_PAY_INFO_1"
+msgstr "Pay Fees:"
+
+msgctxt "TITTLE"
+msgid "INSTRUCTION_MODAL_PAY_INFO_2"
+msgstr "Limit:"
+
+msgctxt "TITTLE"
+msgid "INSTRUCTION_MODAL_PAY_INFO_3"
+msgstr "Opening Hours:"
+
+msgctxt "TITTLE"
+msgid "INSTRUCTION_MODAL_PAY_INFO_4"
+msgstr "Devolution:"
+
+msgctxt "TITTLE"
+msgid "INSTRUCTION_MODAL_RECHARGE_INFO_1"
+msgstr "Recharge fees:"
+
+msgctxt "TITTLE"
+msgid "INSTRUCTION_MODAL_RECHARGE_INFO_2"
+msgstr "Devolution:"
+
+msgctxt "INIT"
+msgid "RECHARGE_BT"
+msgstr " EFFECT RECHARGE "
+
+msgctxt "INIT"
+msgid "BUY_BT"
+msgstr "BUY"
+
+msgctxt "INIT"
+msgid "COINSALE_BT"
+msgstr "BUY"
+
+msgctxt "OPERATOR"
+msgid "RECHARGE_SELECT_TITLE"
+msgstr "Operator"
+
+msgctxt "TOKEN"
+msgid "ASSETS_USER_DOESNT_HAVE"
+msgstr "You don't have any token"
+
+msgctxt "REQUEST"
+msgid "ASSETS_BAD"
+msgstr "Couldn't request assets' info, check if you are correctly logged in"
+
+msgctxt "TIME"
+msgid "ASSETS_HISTORY_TX"
+msgstr "Time:"
+
+msgctxt "BTC"
+msgid "INSTRUCTION_MODAL_PAY_"
+msgid_plural "INSTRUCTION_MODAL_PAY_"
+msgstr[0] ""
+"Bitcoin (BTC), Litecoin (LTC), Bitcoin Cash (BCH), Dash (DASH), Tether "
+"(USDT) e Ethereum (ETH)"
+msgstr[1] "Above de R$3.000,01 - 2,5%"
+msgstr[2] "Up to R$1.000,00 - 3,5%"
+msgstr[3] "From R$1.000,01 to R$3.000,00 - 3%"
+
+msgctxt "INSUFICIENT"
+msgid "ALIAS_BALANCE"
+msgstr "Balance insufficient."
+
+msgctxt "CLAIMED"
+msgid "ALIAS_ALREADY"
+msgstr "Alias already in use"
+
+msgctxt "INCORRECT"
+msgid "ALIAS_INFORMED"
+msgstr "The informed alias is incorrect!"
+
+msgctxt "BUYCOINS"
+msgid "MENU"
+msgstr "Buy"
+
+msgctxt "WAITING"
+msgid "BUYCOINS_STATUS"
+msgstr "Waiting"
+
+msgctxt "WAITING"
+msgid "COINSALE_STATUS"
+msgstr "Waiting"
+
+msgctxt "CONFIRMED"
+msgid "BUYCOINS_STATUS"
+msgstr "Confirmed"
+
+msgctxt "CONFIRMED"
+msgid "COINSALE_STATUS"
+msgstr "Confirmed"
+
+msgctxt "CANCELED"
+msgid "BUYCOINS_STATUS"
+msgstr "Canceled"
+
+msgctxt "CANCELED"
+msgid "COINSALE_STATUS"
+msgstr "Canceled"
+
+msgctxt "PREFIX"
+msgid "BUYCOINS_PACK_TEXT"
+msgstr "You are buying "
+
+msgctxt "PREFIX"
+msgid "COINSALE_PACK_TEXT"
+msgstr "You are buying "
+
+msgctxt "SUFIX"
+msgid "BUYCOINS_PACK_TEXT"
+msgstr " and will receive"
+
+msgctxt "SUFIX"
+msgid "COINSALE_PACK_TEXT"
+msgstr " and will receive"
+
+msgctxt "PACK"
+msgid "BUY_ERROR"
+msgstr "Select a package"
+
+msgctxt "PACK"
+msgid "COINSALE_ERROR"
+msgstr "Select a package"
+
+msgctxt "RELOAD"
+msgid "BUY_ERROR"
+msgstr "Error. Try reload page."
+
+msgctxt "RELOAD"
+msgid "COINSALE_ERROR"
+msgstr "Error. Try reload page."
+
+msgctxt "CREDIT"
+msgid "BUY"
+msgstr "Payment"
+
+msgctxt "CREDIT"
+msgid "COINSALE"
+msgstr "Payment"
+
+msgctxt "INVITE"
+msgid "MENU"
+msgstr "Invites"
+
+msgctxt "INVITE"
+msgid "INVITE_TITLE"
+msgstr "Invites"
+
+msgctxt "COUPON"
+msgid "INVITE_TITLE"
+msgstr "Coupon"
+
+msgctxt "INVITATIONS"
+msgid "INVITE_SEND"
+msgstr "Sent invites"
+
+msgctxt "INVITATIONS"
+msgid "INVITE_CONFIRMED"
+msgstr "Confirmed invites"
+
+msgctxt "WITHDRAW"
+msgid "INVITE"
+msgstr "Successfully withdrawn!"
+
+msgctxt "SENT"
+msgid "INVITE_STATUS"
+msgstr "Sent"
+
+msgctxt "REGISTERED"
+msgid "INVITE_STATUS"
+msgstr "Registered"
+
+msgctxt "TRANSACTED"
+msgid "INVITE_STATUS"
+msgstr "Transacted"
+
+msgctxt "REDEEMED"
+msgid "INVITE_STATUS"
+msgstr "Redeemed"
+
+msgctxt "RESEND"
+msgid "BTN_INVITE"
+msgstr ""
+
+msgctxt "COINSALE"
+msgid "MENU"
+msgstr "Buy"
+
+msgctxt "METHOD"
+msgid "P2P_FAILED_GET_PAYMENT"
+msgstr "Failed to get payment method to this coin"
+
+msgctxt "METHOD"
+msgid "P2P_PAYMENT"
+msgstr "Payment method"
+
+msgctxt "METHODS"
+msgid "P2P_NO_PAYMENT"
+msgstr "Application error. There's no payment methods to be used"
+
+msgctxt "BTN"
+msgid "P2P_BUY"
+msgstr "Buy"
+
+msgctxt "BUY"
+msgid "P2P_TO"
+msgstr "To buy"
+
+msgctxt "BUY"
+msgid "P2P_HEADER"
+msgid_plural "P2P_HEADER"
+msgstr[0] "Buy"
+msgstr[1] "Buy"
+
+msgctxt "PLACEHOLDER"
+msgid "P2P_CREATE_OFFER_DESCRIPTION"
+msgstr "Enter additional info about the ad that potential buyers need to know."
+
+msgctxt "PLACEHOLDER"
+msgid "P2P_CREATE_OFFER_ADDRESS"
+msgstr "Address"
+
+msgctxt "NEGOTIATION"
+msgid "P2P_CREATE_OFFER"
+msgstr "Negotiation type"
+
+msgctxt "ANNOUNCED"
+msgid "P2P_CREATE_OFFER_COIN"
+msgstr "Coin announced"
+
+msgctxt "PAYMENT"
+msgid "P2P_CREATE_OFFER_COIN"
+msgstr "Coin accepted"
+
+msgctxt "PAYMENT"
+msgid "P2P_HEADER"
+msgstr "Payment"
+
+msgctxt "VALUES"
+msgid "P2P_CREATE_OFFER_COIN"
+msgstr "Enter the amount to sell and the amount to receive"
+
+msgctxt "ORDER"
+msgid "P2P_NO"
+msgstr "No listing found"
+
+msgctxt "NEGOTIATIONS"
+msgid "P2P_PROFILE"
+msgstr "Negotiations"
+
+msgctxt "CONCLUDED"
+msgid "P2P_PROFILE"
+msgstr "Positive"
+
+msgctxt "FEEDBACK"
+msgid "P2P_PROFILE"
+msgstr "Feedback"
+
+msgctxt "OFFER"
+msgid "P2P"
+msgstr "Selling"
+
+msgctxt "SELLS"
+msgid "P2P"
+msgstr "Accept"
+
+msgctxt "NEGOTIATE"
+msgid "P2P_BUTTON"
+msgstr "Negotiate"
+
+msgctxt "UNITY"
+msgid "P2P_VALUE"
+msgstr "Unit "
+
+msgctxt "AGAIN"
+msgid "P2P_TRY"
+msgstr "Try again"
+
+msgctxt "SIGNATURE"
+msgid "P2P_MONTHLY"
+msgstr "Monthly"
+
+msgctxt "SIGNATURE"
+msgid "P2P_QUARTERLY"
+msgstr "Quarterly"
+
+msgctxt "SIGNATURE"
+msgid "P2P_SEMESTER"
+msgstr "Semester"
+
+msgctxt "SIGNATURE"
+msgid "P2P_YEARLY"
+msgstr "Yearly"
+
+msgctxt "LISTING"
+msgid "P2P_MY"
+msgstr "My listings"
+
+msgctxt "SALE"
+msgid "P2P_TAB"
+msgstr "Sale"
+
+msgctxt "RECEIPT"
+msgid "P2P_BUTTON_CONFIRM"
+msgstr "Confirm receipt"

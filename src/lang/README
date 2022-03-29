@@ -1,0 +1,4 @@
+.JSON to .PO / .PO to .JSON Documentation: https://github.com/i18next/i18next-gettext-converter
+
+//conver en_US
+i18next-conv -l en_US -s ./src/lang/en_US.json -t ./src/lang/en_US.po
