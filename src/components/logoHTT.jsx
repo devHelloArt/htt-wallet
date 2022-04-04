@@ -37,8 +37,8 @@ class LogoHTT extends React.Component {
         >
           <img
             src={"images/icons/tokens/HTT_Wallet_Logo.png"}
-            height="131px"
-            width="100px"
+            height="120px"
+            width="200px"
           />
         </div>
       </div>
