@@ -9,7 +9,7 @@ import {
     clearAll
 } from "../../../utils/localStorage";
 import { encryptHmacSha512Key } from "../../../utils/cryptography";
-import { HEADER_RESPONSE } from "../../../constants/apiBaseUrl";
+//import { HEADER_RESPONSE } from "../../../constants/apiBaseUrl";
 import {
     internalServerError,
     modalSuccess,
@@ -63,14 +63,8 @@ export function* authenticateUser(action) {
             type: "SET_USER_SEED",
             seed: seed
         });
-        // let twoFactorResponse = yield call(
-        //     authService.hasTwoFactorAuth,
-        //     response.data.data.token
-        // );
 
-        // let twoFactor = twoFactorResponse.data.code === 200 ? true : false;
-        setAuthToken(response.headers[HEADER_RESPONSE])
-            // yield call(setAuthToken, response.headers[HEADER_RESPONSE]);
+        yield call(setAuthToken, response.data.token);
 
         yield put({
             type: "POST_USER_AUTHENTICATE",
@@ -85,12 +79,10 @@ export function* authenticateUser(action) {
             }
         });
 
-        // if (!twoFactor && seed) {
         yield put({
             type: "CHANGE_LOADING_GENERAL_STATE",
             state: true
         });
-        // }
 
         return;
     } catch (error) {
@@ -244,7 +236,7 @@ export function* resetUser(action) {
 
         let response = yield call(userService.resetPass, { email: action.login });
 
-        if (response.data.code === 200) {
+        if (response.status === 200) {
             yield put({
                 type: "POST_USER_RESET_USER",
                 page: 1

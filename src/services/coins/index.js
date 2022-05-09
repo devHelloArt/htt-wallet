@@ -1,3 +1,3 @@
-import EthServices from "./eth";
+import HTTServices from "./htt";
 
-export { EthServices };
+export { HTTServices };

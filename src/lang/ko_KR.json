@@ -106,8 +106,8 @@
     "CARD_HOME_TITLE_plural": "Leasing",
     "2FA_INSTRUCTIONS_TITLE": "Device verification",
     "WALLET_MODAL_SEND_TITLE": "Transaction",
-    "WALLET_MODAL_RECEIVE_TITLE": "Receive",
-    "TRANSACTION_HISTORY_TITLE": "Transactions",
+    "WALLET_MODAL_RECEIVE_TITLE": "받기",
+    "TRANSACTION_HISTORY_TITLE": "거래내역",
     "SETTINGS_TITLE": "Choose the right privacy settings for you",
     "PAYMENT_MODAL_TITLE": "Invoice Payment",
     "PAYMENT_TERMS_TITLE": "GDPR Term",
@@ -175,7 +175,7 @@
     "BTN_CONFIRM": "Confirm",
     "PAYMENT_CONFIRM": "The average payment confirmation time is up to 30 minutes. Only complete the payment if you agree.",
     "PAYMENT_CONFIRM_plural": "",
-    "MESSAGE_ERROR_FILEDS": "The following fields are missing or wrong",
+    "MESSAGE_ERROR_FILEDS": "다음 필드가 누락되었거나 잘못되었습니다.",
     "MESSAGE_ERROR_EMPTY_FILEDS": "Some fields are empty",
     "MESSAGE_USER_EMAIL": "User/Email",
     "PLACEHOLDER_USERNAME_EMAIL": "Email",
@@ -187,7 +187,7 @@
     "SEED_INSERT_SEED": "시드 단어 삽입",
     "PLACEHOLDER_PASSWORD_REPEAT": "비밀번호 반복",
     "BTN_SUBMIT": "Submit",
-    "BTN_SEND": "Send",
+    "BTN_SEND": "보내기",
     "MODAL_TO_SEND_SEND": "You are sending",
     "BTN_DISABLED": "Disabled",
     "BTN_SEND_LOADING": "Loading...",
@@ -317,7 +317,7 @@
     "PAGE_ERROR_404": "Oh, No!... Page not found",
     "ASSETS_USER_DOESNT_HAVE_TOKEN": "You don't have any token",
     "ASSETS_BAD_REQUEST": "Couldn't request assets' info, check if you are correctly logged in",
-    "ASSETS_SERVER_ERROR": "An error ocurred in our server, try again later on",
+    "ASSETS_SERVER_ERROR": "서버에서 오류가 발생했습니다. 나중에 다시 시도하세요.",
     "ASSETS_UNKNOWN_ERROR": "Unknown error on trying to do assets' request",
     "ASSETS_UNKNOWN_ERROR_1": "Unknown error on trying to do assets' request.",
     "ASSETS_NO_TX_HISTORY_1": "You dont have any history to be shown up.",
@@ -380,5 +380,10 @@
     "INVITE_SUCCESS_EMAIL": "Confirmed E-mail",
     "MENU_COINSALE": "Buy",
 
-    "SELECT_COIN": "Select a coin"
+    "SELECT_COIN": "Select a coin",
+    "LOCKED_WALLET": "현재 지갑은 잠금상태입니다.",
+    "EXPECTED_WITHDRAWAL_DATE": "출금예정일",
+    "WITHDRAWABLE_RATE": "출금가능비율",
+    "HELLO": "안녕하세요"
+
 }

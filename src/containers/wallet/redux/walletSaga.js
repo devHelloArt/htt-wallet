@@ -1,7 +1,7 @@
 import { put, call } from "redux-saga/effects";
 import {
     internalServerError,
-    modalError
+    modalError,
 } from "../../../containers/errors/statusCodeMessage";
 
 import i18n from "../../../utils/i18n";
@@ -25,12 +25,12 @@ export function* validateAddress(action) {
         if (response !== "error" && !response.error) {
             yield put({
                 type: "SET_WALLET_MODAL_ADDRESS",
-                address: address
+                address: address,
             });
 
             yield put({
                 type: "SET_WALLET_MODAL_STEP",
-                step: 1
+                step: 1,
             });
 
             return;
@@ -46,12 +46,12 @@ export function* validateAddress(action) {
             if (!response.error && response !== "error") {
                 yield put({
                     type: "SET_WALLET_MODAL_ADDRESS",
-                    address: dataAlias.address
+                    address: dataAlias.address,
                 });
 
                 yield put({
                     type: "SET_WALLET_MODAL_STEP",
-                    step: 1
+                    step: 1,
                 });
 
                 return;
@@ -61,14 +61,14 @@ export function* validateAddress(action) {
         yield put(modalError(i18n.t("MESSAGE_INVALID_ADDRESS")));
 
         yield put({
-            type: "SET_WALLET_MODAL_LOADING"
+            type: "SET_WALLET_MODAL_LOADING",
         });
 
         return;
     } catch (error) {
         yield put({
             type: "CHANGE_WALLET_ERROR_STATE",
-            state: true
+            state: true,
         });
         yield put(internalServerError());
     }
@@ -88,12 +88,12 @@ export function* getWalletSendModalFee(action) {
         if (response) {
             yield put({
                 type: "GET_WALLET_MODAL_SEND_FEE",
-                fee: response
+                fee: response,
             });
 
             yield put({
                 type: "SET_WALLET_MODAL_STEP",
-                step: 2
+                step: 2,
             });
 
             return;
@@ -104,7 +104,7 @@ export function* getWalletSendModalFee(action) {
     } catch (error) {
         yield put({
             type: "CHANGE_WALLET_ERROR_STATE",
-            state: true
+            state: true,
         });
         yield put(internalServerError());
     }
@@ -131,11 +131,11 @@ export function* getWalletCoinHistory(action) {
         if (!response.error) {
             yield put({
                 type: "SET_WALLET_HISTORY",
-                history: response
+                history: response,
             });
 
             yield put({
-                type: "SET_WALLET_HISTORY_LOADING"
+                type: "SET_WALLET_HISTORY_LOADING",
             });
 
             return;
@@ -143,14 +143,14 @@ export function* getWalletCoinHistory(action) {
 
         yield put({
             type: "SET_WALLET_HISTORY_LOADING",
-            state: true
+            state: true,
         });
 
         return;
     } catch (error) {
         yield put({
             type: "CHANGE_WALLET_ERROR_STATE",
-            state: true
+            state: true,
         });
         yield put(internalServerError());
     }
@@ -161,12 +161,12 @@ export function* getCoinFee(action) {
         let response = yield call(coinService.getFee, action.coinType);
         yield put({
             type: "GET_COIN_FEE",
-            fee: response
+            fee: response,
         });
     } catch (error) {
         yield put({
             type: "CHANGE_WALLET_ERROR_STATE",
-            state: true
+            state: true,
         });
         yield put(internalServerError());
     }
@@ -196,12 +196,12 @@ export function* setWalletTransaction(action) {
             if (response) {
                 yield put({
                     type: "SET_WALLET_MODAL_STEP",
-                    step: 5
+                    step: 5,
                 });
 
                 yield put({
                     type: "SET_WALLET_TRANSACTION",
-                    response: response
+                    response: response,
                 });
 
                 return;
@@ -210,12 +210,12 @@ export function* setWalletTransaction(action) {
 
         yield put({
             type: "SET_WALLET_MODAL_STEP",
-            step: 6
+            step: 6,
         });
 
         yield put({
             type: "CHANGE_WALLET_ERROR_STATE",
-            state: true
+            state: true,
         });
         yield put(internalServerError());
 
@@ -223,84 +223,8 @@ export function* setWalletTransaction(action) {
     } catch (error) {
         yield put({
             type: "CHANGE_WALLET_ERROR_STATE",
-            state: true
+            state: true,
         });
         yield put(internalServerError());
-    }
-}
-
-export function* setUtxos(action) {
-    try {
-        const { address, coin } = action;
-        if (
-            coin.search(/lunes/i) !== -1 ||
-            coin.search(/eth/i) !== -1 ||
-            coin.search(/usdt/i) !== -1
-        ) {
-            yield put({
-                type: "SET_WALLET_UTXOS",
-                status: "success",
-                data: [],
-                message: ""
-            });
-            return;
-        }
-
-        yield put({
-            type: "SET_WALLET_UTXOS",
-            status: "loading",
-            data: [],
-            message: ""
-        });
-
-        const token = yield call(getAuthToken);
-        const utxos = yield call(transactionService.utxo, address, coin, token);
-
-        let userMessage = "";
-
-        if (!utxos) {
-            userMessage = i18n.t("WALLET_UTXOS_EMPTY_1");
-            yield put({
-                type: "SET_WALLET_UTXOS",
-                message: userMessage,
-                data: utxos,
-                status: "error"
-            });
-            return;
-        }
-
-        if (utxos && utxos.constructor.name === "Array" && utxos.length < 1) {
-            userMessage = i18n.t("WALLET_UTXOS_EMPTY_1");
-            yield put({
-                type: "SET_WALLET_UTXOS",
-                message: userMessage,
-                data: utxos,
-                status: "error"
-            });
-            return;
-        }
-
-        //success
-        if (utxos && utxos.constructor.name === "Array" && utxos.length > 0) {
-            yield put({
-                type: "SET_WALLET_UTXOS",
-                data: utxos,
-                status: "success",
-                message: userMessage
-            });
-            return;
-        }
-        userMessage = i18n.t("WALLET_UTXOS_UNKNOWN_ERROR");
-        yield put({
-            type: "SET_WALLET_UTXOS",
-            message: userMessage,
-            data: utxos,
-            status: "error"
-        });
-    } catch (error) {
-        yield put({
-            type: "REQUEST_FAILED",
-            message: error.message || "Unknown error when getting UTXOS"
-        });
     }
 }

@@ -1,8 +1,7 @@
 export const TESTNET = false;
 export const BASE_URL = TESTNET ?
-    "https://a.lunes.io/wallet/staging" :
+    "https://app.dev.htt-wallet.io" :
     "https://app.htt-wallet.io";
-//"http://localhost:5501";
 
 export const LUNESNODE_URL = TESTNET ?
     "https://lunesnode-testnet.lunes.io" :
@@ -45,9 +44,4 @@ export const chat = {
 export const blockexplorer = {
     lunes: TESTNET ?
         "https://blockexplorer-testnet.lunes.io/tx/" : "https://blockexplorer.lunes.io/tx/",
-    btc: TESTNET ? "https://live.blockcypher.com/btc-testnet/block/" : "https://live.blockcypher.com/btc/tx/",
-    ltc: TESTNET ? "https://chain.so/tx/LTCTEST/" : "https://live.blockcypher.com/ltc/tx/",
-    bch: "https://live.blockcypher.com/bch/tx/",
-    dash: "https://chainz.cryptoid.info/dash/search.dws?q=",
-    eth: TESTNET ? "https://ropsten.etherscan.io/tx/" : "https://etherscan.io/tx/"
 };

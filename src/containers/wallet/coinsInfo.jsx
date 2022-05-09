@@ -6,11 +6,9 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import {
   setWalletSendModalOpen,
-  setWalletReceiveModalOpen,
   setWalletModalStep,
   setWalletLoading,
-  setUtxos,
-  resetModalSend
+  resetModalSend,
 } from "./redux/walletAction";
 import { errorRequest } from "../errors/redux/errorAction.js";
 
@@ -28,7 +26,6 @@ import ArrowDropUp from "@material-ui/icons/ArrowDropUp";
 //COMPONENTS
 import Modal from "../../components/modal";
 import SendModal from "./modal/sendModal/";
-import ReceiveModal from "./modal/receiveModal/";
 
 // UTILS
 import i18n from "../../utils/i18n";
@@ -38,7 +35,7 @@ class CoinsInfo extends React.Component {
     super();
     this.state = {
       modalSend: false,
-      modalReceive: false
+      modalReceive: false,
     };
   }
 
@@ -52,7 +49,7 @@ class CoinsInfo extends React.Component {
     return;
   };
 
-  renderArrowPercent = val => {
+  renderArrowPercent = (val) => {
     if (parseFloat(val) < 0) {
       return <ArrowDropDown className={style.arrowPercentDown} />;
     } else {
@@ -72,10 +69,8 @@ class CoinsInfo extends React.Component {
   componentDidUpdate() {
     let { lastCoin } = this.state;
     let { wallet } = this.props;
-    // let { wallet, coins, setUtxos } = this.props;
     // let address = coins[wallet.selectedCoin].address;
     if (lastCoin !== wallet.selectedCoin) {
-      // setUtxos(wallet.selectedCoin, address);
       this.setState({ lastCoin: wallet.selectedCoin });
     }
   }
@@ -87,7 +82,7 @@ class CoinsInfo extends React.Component {
       wallet,
       setWalletSendModalOpen,
       setWalletLoading,
-      loadWalletInfo
+      loadWalletInfo,
     } = this.props;
     let step = wallet.modal.step;
 
@@ -105,12 +100,7 @@ class CoinsInfo extends React.Component {
   };
 
   render() {
-    let {
-      // setWalletSendModalOpen,
-      // setWalletReceiveModalOpen,
-      coins,
-      wallet
-    } = this.props;
+    let { user, coins, wallet } = this.props;
     let step = wallet.modal.step;
     let selectedCoin = wallet.selectedCoin ? wallet.selectedCoin : "HTT";
 
@@ -118,16 +108,12 @@ class CoinsInfo extends React.Component {
 
     let coin = coins[wallet.selectedCoin];
     let balance = coin.balance.available;
+    let strBalance = parseInt(balance).toLocaleString();
+    let userName = user.name;
     let address = coin.address;
+    
     return (
       <div>
-        <Modal
-          title={i18n.t("WALLET_MODAL_RECEIVE_TITLE")}
-          content={<ReceiveModal coin={coin} />}
-          show={wallet.modalReceive.open}
-          close={() => setWalletReceiveModalOpen()}
-        />
-
         <Modal
           title={i18n.t("WALLET_MODAL_SEND_TITLE")}
           content={<SendModal />}
@@ -150,30 +136,53 @@ class CoinsInfo extends React.Component {
                   className={style.iconCoinSelected}
                 />
                 <div className={style.percentageCoinSelected}>
+                  <h3> $ -</h3>
                 </div>
               </Grid>
             </Grid>
 
             <Hidden xsDown>
               <Grid item xs={8} className={style.floatRight}>
-                <Grid item className={style.balanceItem}>
-                  <h2>{i18n.t("WALLET_BALANCE")}</h2>
-                  <p>{address} </p>
-                  <p>{balance} </p>
-                  <div className={style.alignValues}>
-                  </div>
+                <Grid item className={style.floatRight}>
+                  <Grid item className={style.balanceItem}>
+                    <h2>{i18n.t("HELLO")}, {userName}</h2>
+                  </Grid>
+                  <Grid item className={style.balanceItem}>
+                    <h2>{address}, {i18n.t("WALLET_BALANCE")}</h2>
+                    <h3>{strBalance} </h3>
+                    <div className={style.alignValues}>
+                      <h3> $0.00 USD</h3>
+                    </div>
+                    <h3>{i18n.t("EXPECTED_WITHDRAWAL_DATE")} D-</h3>
+                    <h3>{i18n.t("WITHDRAWABLE_RATE")} : -%</h3>
+                  </Grid>
+                  <Grid item xs={11} className={style.alignButtons}>
+                    <button
+                      className={style.sentButton}
+                      onClick={() => alert(i18n.t("LOCKED_WALLET"))}
+                    >
+                      {i18n.t("BTN_SEND")}
+                    </button>
+                  </Grid>
                 </Grid>
               </Grid>
             </Hidden>
 
             <Hidden smUp>
-              <Grid item xs={8} className={style.floatRight}>
-                <Grid item className={style.balanceItemMobile}>
-                  <h2>{i18n.t("WALLET_BALANCE")}</h2>
-                  <p>{address} </p>
-                  <p>{balance} </p>
-                  <div className={style.alignValues}>
-                  </div>
+              <Grid item xs={8} className={style.contentInfo}>
+                <Grid item className={style.floatRight}>
+                  <Grid item className={style.balanceItemMobile}>
+                    <h2>{i18n.t("HELLO")}, {userName}</h2>
+                  </Grid>
+                  <Grid item className={style.balanceItemMobile}>
+                    <h2>{address}, {i18n.t("WALLET_BALANCE")}</h2>
+                    <h3>{strBalance} </h3>
+                    <div className={style.alignValues}>
+                      <h3> $0.00 USD</h3>
+                    </div>
+                    <h3>{i18n.t("EXPECTED_WITHDRAWAL_DATE")} D-</h3>
+                    <h3>{i18n.t("WITHDRAWABLE_RATE")} : -%</h3>
+                  </Grid>
                 </Grid>
               </Grid>
             </Hidden>
@@ -181,18 +190,12 @@ class CoinsInfo extends React.Component {
 
           <Hidden smUp>
             <Grid item xs={11} className={style.alignButtons}>
-              {/* <button
-                className={style.receiveButtonMobile}
-                onClick={() => setWalletReceiveModalOpen()}
-              >
-                {i18n.t("BTN_RECEIVE")}
-              </button>
               <button
                 className={style.sentButtonMobile}
-                onClick={() => setWalletSendModalOpen()}
+                onClick={() => alert(i18n.t("LOCKED_WALLET"))}
               >
                 {i18n.t("BTN_SEND")}
-              </button> */}
+              </button>
             </Grid>
           </Hidden>
         </Grid>
@@ -205,38 +208,31 @@ CoinsInfo.propTypes = {
   user: PropTypes.object.isRequired,
   wallet: PropTypes.object.isRequired,
   coins: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
-  setUtxos: PropTypes.func.isRequired,
   loadWalletInfo: PropTypes.func.isRequired,
   setWalletLoading: PropTypes.func.isRequired,
   setWalletModalStep: PropTypes.func.isRequired,
   setWalletSendModalOpen: PropTypes.func.isRequired,
-  setWalletReceiveModalOpen: PropTypes.func,
   errorRequest: PropTypes.func,
-  resetModalSend: PropTypes.func
+  resetModalSend: PropTypes.func,
 };
 
-const mapSateToProps = store => ({
+const mapSateToProps = (store) => ({
   user: store.user.user,
   wallet: store.wallet,
-  coins: store.skeleton.coins
+  coins: store.skeleton.coins,
 });
 
-const mapDispatchToProps = dispatch =>
+const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
       loadWalletInfo,
       setWalletLoading,
       setWalletModalStep,
       setWalletSendModalOpen,
-      setWalletReceiveModalOpen,
-      setUtxos,
       errorRequest,
-      resetModalSend
+      resetModalSend,
     },
     dispatch
   );
 
-export default connect(
-  mapSateToProps,
-  mapDispatchToProps
-)(CoinsInfo);
+export default connect(mapSateToProps, mapDispatchToProps)(CoinsInfo);
