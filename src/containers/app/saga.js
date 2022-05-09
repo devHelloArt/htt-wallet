@@ -1,4 +1,4 @@
-import { takeLatest, takeEvery } from "redux-saga";
+import { takeLatest } from "redux-saga";
 import { fork } from "redux-saga/effects";
 import {
     authenticateUser,
@@ -28,7 +28,6 @@ import {
     getWalletSendModalFee,
     getCoinFee,
     setWalletTransaction,
-    setUtxos
 } from "../wallet/redux/walletSaga";
 
 
@@ -63,7 +62,6 @@ export default function* rootSaga() {
         fork(takeLatest, "GET_WALLET_MODAL_SEND_FEE_API", getWalletSendModalFee),
         fork(takeLatest, "GET_COIN_ADRESS_API", shareCoinAddress),
         fork(takeLatest, "SET_WALLET_TRANSACTION_API", setWalletTransaction),
-        fork(takeEvery, "SET_WALLET_UTXOS_API", setUtxos),
 
         // Leasing
         fork(takeLatest, "GET_COIN_FEE_API", getCoinFee),

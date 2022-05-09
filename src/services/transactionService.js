@@ -18,8 +18,8 @@ import {
 } from "../containers/errors/statusCodeMessage";
 
 // COINS
-import { EthServices } from "./coins";
 import CoinService from "./coinService";
+import { HTTServices } from "./coins"
 
 // UTILS
 import i18n from "../utils/i18n";
@@ -111,7 +111,6 @@ class TransactionService {
                 fromAddress,
                 toAddress,
                 fee,
-                feePerByte,
                 feeLunes,
                 describe,
                 price,
@@ -136,47 +135,31 @@ class TransactionService {
                 modalError(i18n.t("MESSAGE_TRANSACTION_FAILED"));
                 return;
             }
+            let transactionLunes = new HTTServices();
+            let respondeLunes = await transactionLunes.createLunesTransaction({
+                network: network,
+                seed: seed,
+                fromAddress: fromAddress,
+                toAddress: toAddress,
+                amount: convertSmallerCoinUnit(amount, decimalPoint),
+                fee: convertSmallerCoinUnit(fee, decimalPoint)
+            });
 
-            if (coin === "eth") network = TESTNET ? networks.ROPSTEN : networks.ETH;
-
-            if (coin === "eth") {
-                let transactionEth = new EthServices();
-                let responseEth = await transactionEth.createTransaction({
-                    fromAddress: fromAddress,
-                    toAddress: toAddress,
-                    seed: seed,
-                    lunesWallet: lunesWallet,
-                    fee: convertSmallerCoinUnit(fee, decimalPoint),
-                    feePerByte: feePerByte,
-                    feeLunes: feeLunes,
-                    amount: convertSmallerCoinUnit(amount, decimalPoint),
-                    coin: coin,
-                    token: token,
-                    network: network
-                });
-
-                if (responseEth === "error" || !responseEth) {
-                    return;
-                }
-
-                let responseSaveEth = await coinService.saveTransaction(
-                    serviceId,
-                    feeLunes, {
-                        id: responseEth,
-                        sender: fromAddress,
-                        recipient: toAddress,
-                        amount: convertSmallerCoinUnit(amount, decimalPoint),
-                        fee: convertSmallerCoinUnit(fee, decimalPoint)
-                    },
-                    coin,
-                    transaction.price,
-                    lunesUserAddress,
-                    describe ? describe : "P2P",
-                    token
-                );
-                return responseSaveEth;
+            if (respondeLunes === "error" || !respondeLunes) {
+                return;
             }
-            return;
+
+            let responseSaveLunes = await coinService.saveTransaction(
+                serviceId,
+                feeLunes,
+                respondeLunes,
+                coin,
+                transaction.price,
+                lunesUserAddress,
+                describe ? describe : "P2P",
+                token
+            );
+            return responseSaveLunes;
         } catch (error) {
             internalServerError();
             return error;

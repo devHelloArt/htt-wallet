@@ -8,9 +8,8 @@ import { loadWalletInfo } from "../skeleton/redux/skeletonAction";
 import { setWalletLoading, setSelectedCoin } from "./redux/walletAction";
 
 // COMPONENTS
-// import CoinsBar from "./coinsBar";
 import CoinsInfo from "./coinsInfo";
-// import TransactionHistory from "./transactionHistory";
+import TransactionHistory from "./transactionHistory";
 import Loading from "../../components/loading";
 
 // UTILS
@@ -35,10 +34,9 @@ class Wallet extends React.Component {
 
     return (
       <div>
-        {/* <CoinsBar /> */}
         <div>
           <CoinsInfo />
-          {/* <TransactionHistory /> */}
+          <TransactionHistory />
         </div>
       </div>
     );

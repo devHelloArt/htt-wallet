@@ -13,7 +13,7 @@ import { getUsername, clearAll } from "../../utils/localStorage";
 import Login from "./login";
 import App from "./app";
 import LoadingPage from "../skeleton/loading";
-// import InternalError from "../errors/500";
+import InternalError from "../errors/500";
 
 class Content extends Component {
   constructor() {
@@ -33,24 +33,24 @@ class Content extends Component {
   }
 
   componentDidUpdate() {
-    // let { type } = this.state;
-    // let { loading, errors } = this.props.skeleton;
-    // if (errors) {
-    //   if (type !== "error") {
-    //     errorRequest();
-    //     this.changeContent(<InternalError />, "error");
-    //     setTimeout(() => {
-    //       window.location.reload();
-    //     }, 9000);
-    //   }
+    let { type } = this.state;
+    let { loading, errors } = this.props.skeleton;
+    if (errors) {
+      if (type !== "error") {
+        errorRequest();
+        this.changeContent(<InternalError />, "error");
+        setTimeout(() => {
+          window.location.reload();
+        }, 9000);
+      }
 
-    //   return;
-    // }
+      return;
+    }
 
-    // if (loading) {
-    //   if (type !== "loading") return this.renderLoading();
-    //   return;
-    // }
+    if (loading) {
+      if (type !== "loading") return this.renderLoading();
+      return;
+    }
 
     return this.renderContent();
   }

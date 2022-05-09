@@ -88,32 +88,25 @@ class CoinService {
                 availableCoins[index].coinHistory = undefined;
                 let localSeed = seed;
 
-
                 if (coin.status === "active") {
 
                     // GET BALANCE
                     let responseBalance = await axios.get(
-                        BASE_URL + "/users/getbalance", { params: { id: getUsername() }, headers: { "Authorization": token } }
+                        BASE_URL + "/users/getUserInfo", { params: { id: getUsername() }, headers: { "Authorization": token } }
                     );
 
-                    availableCoins.token = responseBalance.headers[HEADER_RESPONSE];
-                    availableCoins[index].balance = {
-                        available: parseInt(responseBalance.data.balance),
-                        total: parseInt(responseBalance.data.balance),
-                    };
+                    if (responseBalance.data.balance) {
+                        availableCoins.token = responseBalance.data.token;
+                        availableCoins[index].balance = {
+                            available: parseInt(responseBalance.data.balance),
+                            total: parseInt(responseBalance.data.balance),
+                        };
 
-                    // // BALANCE CONVERTER
-                    // availableCoins[index].balance.available = convertBiggestCoinUnit(
-                    //     availableCoins[index].balance.available,
-                    //     coin.decimalPoint
-                    // );
-
-                    // availableCoins[index].balance.total = convertBiggestCoinUnit(
-                    //     availableCoins[index].balance.total,
-                    //     coin.decimalPoint
-                    // );
-
-                    availableCoins[index].address = responseBalance.data.addr;
+                        availableCoins[index].address = responseBalance.data.addr;
+                    } else {
+                        availableCoins[index].status = "inactive";
+                        availableCoins[index].balance = undefined;
+                    }
                 } else {
                     availableCoins[index].address = localSeed;
                     availableCoins[index].balance = undefined;
@@ -127,7 +120,7 @@ class CoinService {
             availableCoins.map(async(coin, index) => {
                 coins[coin.abbreviation] = availableCoins[index];
             });
-            setAuthToken(availableCoins.token);
+            setAuthToken(token);
             coins.token = availableCoins.token;
             return coins;
         } catch (error) {
@@ -149,11 +142,11 @@ class CoinService {
         }
     }
 
-    async getCoinBalance(coinName, address, token) {
+    async getCoinBalance(email, token) {
         try {
             API_HEADER.headers.Authorization = token;
             let response = await axios.get(
-                BASE_URL + "/coin/" + coinName + "/balance/" + address,
+                BASE_URL + "/users/getbalance", { params: { id: email } },
                 API_HEADER
             );
             setAuthToken(response.headers[HEADER_RESPONSE]);
@@ -271,8 +264,6 @@ class CoinService {
     async validateAddress(coin, address) {
         try {
             let valid = false;
-
-            if (coin === "usdt") coin = "btc"; // USDT/TETHER address === BTC address
 
             if (!coin || !address || address.length < 10) {
                 return "error";

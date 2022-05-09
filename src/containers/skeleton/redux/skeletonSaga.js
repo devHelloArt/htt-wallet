@@ -9,11 +9,11 @@ import {
 import { decryptAes } from "../../../utils/cryptography";
 import CoinService from "../../../services/coinService";
 import UserService from "../../../services/userService";
-import TransactionService from "../../../services/transactionService";
+// import TransactionService from "../../../services/transactionService";
 
 const coinService = new CoinService();
 const userService = new UserService();
-const transactionService = new TransactionService();
+// const transactionService = new TransactionService();
 
 export function* loadGeneralInfo(action) {
     try {
@@ -27,44 +27,40 @@ export function* loadGeneralInfo(action) {
         );
 
         let responseUser = yield call(userService.getUser, token);
-        let pictureUser = yield call(
-            userService.getUserPicture,
-            responseUser.data.data.email
-        );
 
         setAuthToken(responseCoins.token);
         delete responseCoins.token;
 
-        let responseAlias = yield call(
-            transactionService.getAliases,
-            responseCoins.lunes.address
-        );
+        // let responseAlias = yield call(
+        //     transactionService.getAliases,
+        //     responseCoins.lunes.address
+        // );
 
-        if (responseAlias.length > 0) {
-            let firstAlias = responseAlias[0].split(":")[2];
+        // if (responseAlias.length > 0) {
+        //     let firstAlias = responseAlias[0].split(":")[2];
 
-            yield put({
-                type: "SET_SKELETON_ALIAS_ADDRESS",
-                alias: firstAlias
-            });
-        }
+        //     yield put({
+        //         type: "SET_SKELETON_ALIAS_ADDRESS",
+        //         alias: firstAlias
+        //     });
+        // }
 
         yield put({
             type: "SET_USER_INFO",
             user: {
-                birthday: responseUser.data.data.birthday,
-                city: responseUser.data.data.city,
-                country: responseUser.data.data.country,
-                terms: responseUser.data.data.terms,
-                phone: responseUser.data.data.phone,
-                state: responseUser.data.data.state,
-                street: responseUser.data.data.street,
-                profilePicture: pictureUser,
-                name: responseUser.data.data.name,
-                phonenum: responseUser.data.data.phonenum,
-                username: responseUser.data.data.username,
-                zipcode: responseUser.data.data.zipcode,
-                email: responseUser.data.data.email
+                birthday: undefined,
+                city: undefined,
+                country: undefined,
+                terms: undefined,
+                phone: undefined,
+                state: undefined,
+                street: undefined,
+                profilePicture: undefined,
+                name: responseUser.data.name,
+                phonenum: undefined,
+                username: undefined,
+                zipcode: undefined,
+                email: undefined
             }
         });
 

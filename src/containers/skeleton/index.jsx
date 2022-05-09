@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
-import Header from "./header";
 import Grid from "@material-ui/core/Grid";
 import style from "./style.css";
 import { clearUserData } from "../user/redux/userAction";
@@ -30,7 +29,6 @@ class Skeleton extends React.Component {
     const { children } = this.props;
     return (
       <div>
-        <Header actionMenu={this.toggleMenu} actionLogout={this.logout} />
         <Grid container>
           <Grid item md={2} xl={1}>
           </Grid>

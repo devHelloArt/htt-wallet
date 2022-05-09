@@ -706,5 +706,9 @@
     "P2P_DESC_PLAN": "This plan will allow you to use P2P's system for",
     "P2P_CANCEL_ORDER": "Cancel done!",
     "P2P_ADDRESS_TO_SEND": "Address to send",
-    "SELECT_COIN": "Select a coin"
+    "SELECT_COIN": "Select a coin",
+    "LOCKED_WALLET": "The wallet is currently locked.",
+    "EXPECTED_WITHDRAWAL_DATE": "Expected withdrawal date",
+    "WITHDRAWABLE_RATE": "Withdrawable rate",
+    "HELLO": "Hello"
 }

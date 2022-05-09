@@ -150,16 +150,6 @@ const wallet = (state = initialState, action) => {
                 }
             };
 
-        case "SET_WALLET_MODAL_RECEIVE_OPEN":
-            return {
-                ...state,
-                modalReceive: {
-                    ...state.modalReceive,
-                    open: !state.modalReceive.open,
-                    loading: false
-                }
-            };
-
         case "SET_WALLET_MODAL_STEP":
             return {
                 ...state,

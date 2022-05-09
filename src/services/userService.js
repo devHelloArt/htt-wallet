@@ -9,7 +9,7 @@ import {
     badRequest,
     internalServerError,
 } from "../containers/errors/statusCodeMessage";
-import { setAuthToken } from "../utils/localStorage";
+import { setAuthToken, getUsername } from "../utils/localStorage";
 import { encryptMd5 } from "../utils/cryptography";
 import i18n from "../utils/i18n";
 import { firebaseGetAuth, firebaseSendEmailVerification, firebaseCreateUser, firebaseSendPasswordResetEmail } from "../utils/firebase";
@@ -63,9 +63,12 @@ class UserService {
     async getUser(token) {
         try {
             API_HEADER.headers.Authorization = token;
-            let response = await axios.get(BASE_URL + "/user", API_HEADER);
-            setAuthToken(response.headers[HEADER_RESPONSE]);
+            let response = await axios.get(BASE_URL + "/users/getUserInfo", {
+                params: { id: getUsername() },
+                headers: { Authorization: token },
+            });
 
+            setAuthToken(response.data.token);
             return response;
         } catch (error) {
             internalServerError();
