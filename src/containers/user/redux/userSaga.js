@@ -236,7 +236,7 @@ export function* resetUser(action) {
 
         let response = yield call(userService.resetPass, { email: action.login });
 
-        if (response.status === 200) {
+        if (response.data.code === 200) {
             yield put({
                 type: "POST_USER_RESET_USER",
                 page: 1
