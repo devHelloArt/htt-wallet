@@ -109,7 +109,7 @@ class CoinsInfo extends React.Component {
     let coin = coins[wallet.selectedCoin];
     let balance = coin.balance.available;
     let strBalance = parseInt(balance).toLocaleString();
-    let curTokenPrice = parseFloat(coin.price).toFixed(2);
+    let curTokenPrice = parseFloat(coin.price).toFixed(3);
     let curTotalPrice = coin.totalPrice.toFixed(2).toLocaleString();
     let userName = user.name;
     let address = coin.address;
