@@ -109,6 +109,8 @@ class CoinsInfo extends React.Component {
     let coin = coins[wallet.selectedCoin];
     let balance = coin.balance.available;
     let strBalance = parseInt(balance).toLocaleString();
+    let curTokenPrice = parseFloat(coin.price).toFixed(2);
+    let curTotalPrice = coin.totalPrice.toFixed(2).toLocaleString();
     let userName = user.name;
     let address = coin.address;
     
@@ -136,7 +138,7 @@ class CoinsInfo extends React.Component {
                   className={style.iconCoinSelected}
                 />
                 <div className={style.percentageCoinSelected}>
-                  <h3> $ -</h3>
+                  <h3> $ {curTokenPrice}</h3>
                 </div>
               </Grid>
             </Grid>
@@ -151,7 +153,7 @@ class CoinsInfo extends React.Component {
                     <h2>{address}, {i18n.t("WALLET_BALANCE")}</h2>
                     <h3>{strBalance} </h3>
                     <div className={style.alignValues}>
-                      <h3> $0.00 USD</h3>
+                      <h3> $ {curTotalPrice} USD</h3>
                     </div>
                     <h3>{i18n.t("EXPECTED_WITHDRAWAL_DATE")} D-</h3>
                     <h3>{i18n.t("WITHDRAWABLE_RATE")} : -%</h3>
@@ -178,7 +180,7 @@ class CoinsInfo extends React.Component {
                     <h2>{address}, {i18n.t("WALLET_BALANCE")}</h2>
                     <h3>{strBalance} </h3>
                     <div className={style.alignValues}>
-                      <h3> $0.00 USD</h3>
+                      <h3> $ {curTotalPrice} USD</h3>
                     </div>
                     <h3>{i18n.t("EXPECTED_WITHDRAWAL_DATE")} D-</h3>
                     <h3>{i18n.t("WITHDRAWABLE_RATE")} : -%</h3>
